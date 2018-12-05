@@ -23,21 +23,11 @@ SlowpokeWellB1F_MapScriptHeader:
 	db 0
 
 .Trigger0:
-;	priorityjump CheckRocketMusicScript
 	end
 
 .Trigger1:
 	end
 
-	
-CheckRocketMusicScript:
-;	checkevent EVENT_SLOWPOKE_WELL_ROCKETS
-;	iffalse .PlayRocketMusic
-;	end
-;.PlayRocketMusic
-;	playmusic MUSIC_ROCKET_HIDEOUT
-	end
-	
 KurtScript_0x5a5d5:
 	jumptextfaceplayer UnknownText_0x5a6b5
 

@@ -2284,17 +2284,13 @@ GetWorldMapLocation:: ; 0x2caf
 ; 0x2cbd
 
 GetMapHeaderMusic:: ; 2cbd
-RADIO_TOWER_MUSIC EQU 7
-
 	push hl
 	push bc
 	ld de, 6 ; music
 	call GetMapHeaderMember
 	ld a, c
-	cp MUSIC_MAHOGANY_MART
-	jr z, .mahoganymart
-	bit RADIO_TOWER_MUSIC, c
-	jr nz, .radiotower
+	cp VARMUSIC_ART_GALLERY
+	jr z, .artgallery
 	callba Function8b342
 	ld e, c
 	ld d, 0
@@ -2303,30 +2299,18 @@ RADIO_TOWER_MUSIC EQU 7
 	pop hl
 	ret
 
-.radiotower
-	ld a, [StatusFlags2]
-	bit 0, a
-	jr z, .clearedradiotower
-	ld de, MUSIC_ROCKET_OVERTURE
-	jr .done
-
-.clearedradiotower
-	; the rest of the byte
+.artgallery
+	ld de, EVENT_SLOWPOKE_WELL_ROCKETS
+	ld b, CHECK_FLAG
+	call EventFlagAction
 	ld a, c
-	and 1 << RADIO_TOWER_MUSIC - 1
-	ld e, a
-	ld d, 0
-	jr .done
-
-.mahoganymart
-	ld a, [StatusFlags2]
-	bit 7, a
-	jr z, .clearedmahogany
+	and a
+	jr nz, .clearedartgallery
 	ld de, MUSIC_ROCKET_HIDEOUT
 	jr .done
 
-.clearedmahogany
-	ld de, MUSIC_CHERRYGROVE_CITY
+.clearedartgallery
+	ld de, MUSIC_VIOLET_CITY
 	jr .done
 ; 2cff
 
