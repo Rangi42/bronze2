@@ -1,0 +1,13 @@
+#2 Pokemon List: Electric Level 9-16
+
+#3 Pokemon List: Dark Level 18-20
+
+#4 Pokemon List: Flying Level 21-25
+
+#5 Pokemon List: Water Level 25-30
+
+#6 Pokemon List: Rock Level 30-35
+
+#7 Pokemon List: Psychic (Leader only) Level 30-37
+
+#8 Pokemon List: Fighting Level 37-40

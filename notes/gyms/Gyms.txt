@@ -1,0 +1,100 @@
+Gyms
+
+M = Map
+P = Pokemon
+T = Text
+C = Coding
+
+1. MACK, Ground       MP C
+2. BLANCHE, Electric  M  C
+3. LUNA, Dark         M
+4. SCARLET, Flying    M  C
+5. CORALINE, Water	  M  C
+6. CARVER, Rock       M	 C
+7. SEBASTIAN, Psychic M  C
+8. HARKEN, Fighting	  M  C
+
+#2 Pokemon List: Electric Level 9-11-16
+	PICHU
+	PIKACHU
+	MAREEP
+	MAGNEMITE
+	VOLTORB
+
+#3 Pokemon List: Dark Level 13-15-20
+	HOUNDOUR
+	MURKROW
+	SNEASEL
+	UMBREON(most likely for gym leader)
+
+#4 Pokemon List: Flying Level 16-20-25
+	PIDGEOTTO
+	NOCTOWL
+	ZUBAT
+	SKIPLOOM
+	FEAROW 
+	SCYTHER
+
+#5 Pokemon List: Water Level 20-25-30
+	TENTACOOL
+	POLIWHIRL
+	POLITOED(for leader)
+	KRABBY
+	HORSEA
+	STARYU 
+	SLOWPOKE
+	SEEL
+	CHINCHOU
+	MARILL
+	AZUMARILL
+	SHELLDER
+	CORSOLA
+
+#6 Pokemon List: Rock Level 25-30-35
+	AERODACTYL(for leader)
+	OMANYTE
+	KABUTO
+	LARVITAR
+	PUPITAR
+	SHUCKLE
+	RHYHORN
+
+#7 Pokemon List: Psychic (Leader only) Level 25-32-37
+	KADABRA
+	HYPNO
+	ESPEON(for leader)
+	XATU
+	GIRAFARIG
+	SLOWKING(for leader)
+	ALAKAZAM(leader)
+	MR. MIME
+	NATU
+
+#8 Pokemon List: Fighting Level 32-35-40
+	PRIMEAPE
+	MACHOKE
+	MACHAMP(leader)
+	HITMONCHAN(leader)
+	HITMONLEE(leader)
+	TYROGUE
+	MACHOP
+	MANKEY
+____________________________________________
+Ground - Deserts or construction
+Rock - Old ruins/archeology theme
+Dark - Night
+Flying - Meteorologists
+Water - Marine biologists
+Electric - Power plant, factory, magnetics
+Psychic - Library
+Fighting - Dojo, wrestling, or boxing
+____________________________________________
+
+Ground - Core Badge
+Rock - Artifact Badge
+Dark - Dusk Badge
+Flying - Star Badge
+Water - Marine Badge
+Electric - Charge Badge
+Psychic - Lore Badge
+Fighting - Belt Badge

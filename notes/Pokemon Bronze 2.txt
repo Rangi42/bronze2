@@ -1,0 +1,480 @@
+python crowdmap/server.py 8000
+
+C:\cygwin64\Freako\home\Casey\Bronze\
+
+…
+	
+python gfx.py png gfx/trainers/whitney.2bpp.lz
+
+python gfx.py png gfx/misc/leaders.w24.2bpp
+	
+(1 << 3) | PAL_OW_BLUE
+
+-Two sprite car
+
+TO FINALISE:
+-FIX ALL INDOOR LOCATION IDs
+-CHANGE ALL WATER POKEMON
+-FRUIT TREES
+
+http://127.0.0.1:8000/crowdmap
+
+									----Put in more Gen 1 songs, gen 1 cave music
+==========
+Start of game:
+• Get Pokemon from PROF ALDER
+• Go get friend at next town- he lives there
+• Meet friend outside of town and name them
+• Go to Lab in start town and fight them
+• Pass into Route 30 where boulders are removed
+• Explore the cave
+• Arrive in VIOLET CITY
+	-Beat Violet Gym,
+		-Wedding chapel behind cut tree
+•  Fight Rival in L shape Underground Path
+• Rest in GOLDENROD CITY
+	-People are talking about the big famous person coming to visit?
+	-CAN GO IN GYM, BUT EVENT SAYING NOBODY IS HERE AND TO LEAVE.
+• Go through into ILEX FOREST
+	-Help kid find his lost items
+• Arrive ECRUTEAK CITY,
+	-Talk to man in some place
+	-Rocket disappears from Art galery door
+	-Beat rockets in art galery
+	-Beat Gym
+((((((((((final ladder in cave, make down ladder))))))))))))))
+• Arrive MAHOGANY TOWN,
+	-Beat the cullinary master chef at the large resturaunt- elevator is out of order, take the stairs 
+	"My Pokemon uses CUT to harvest the finest ingredients!"
+	-beat GYM
+		-Figure out toggle so both events are beaten before the call
+	-Find out a celebrity was talking favorably about Team Rocket on the TV
+• Arrive GOLDENROD CITY
+	-ENTER GYM- SAY LEADER IS OUT
+	-People talking about weird things going on the TV
+	-Go into TV station, find Team Rocket in there "Yeah, she loves us!"
+	-Get to top, SCARLET being held hostage being made to say things about them (OUR MESSAGE HAS BEEN SENT!)
+		-Studio is green screen
+	-Get reward- FLY
+	-Warp to bottom floor, guard blocking stairs
+	-Encourages kids to join Team Rocket for next encounter
+	-GYM IS NOW OPEN, SCARLET IS LEADER?
+• Arrive OLIVINE CITY,
+	-Missing child event start, parents in house.
+	• Go to PARK
+		-Talk to lost boy at the park
+• Back to OLIVINE CITY
+	-Beat GYM
+	-Get item from Sailor's brother in olivine, have to beat Olivine GYM to get item.
+• Arrive AZALEA TOWN,
+	-Go to the mountain and get to the top, to see the pool and get SURF & LAPRAS or MANTINE
+• Arrive CIANWOOD CITY,
+	-Beat SUPER NERD Clubhouse
+	-beat GYM
+		-STRENGTH IS NOW ALLOWED
+	*Have people mention missing children
+• Arrive Sludge Cave
+	(IN CAVE)
+	-Man says you can get STRENGTH from cherrygrove man
+	If you really wanted to get through here, I know a man that can give you a STRENGTH HM)
+	-Get STRENGTH from CHERRYGROVE Route
+• Pass through Sludge Cave
+• Arrive Blackthorn City,
+	-Step into town or gate, officer and parents talking about lost kids.
+	-Cannot enter GYM because of missing children, officer blocks.
+		-See rival, BATTLE?, they tell you they're on guard duty? If you ever change your mind, come see me
+		-"You seem stronger" "If you want to join us, feel free to drop by our hangout in the PARK"
+• Go to PARK and beat ROCKETs
+	-Have rocket boy recruits RUN to you during cutscene
+	-After beating rocket boss, as you leave rival, "I can't believe you've done this"
+	-After returned boy, get EXPSHARE?
+	-GET PHONECALL ABOUT REUINTED CHILDREN
+• Return to Blackthorn City
+	-Beat GYM
+			-Collect MASTERBALL from AIDE no?
+• Go to elite four via CHERRYGROVE?
+	-See BRONZE after confirming all eight badges walk towards you and out of the gate.
+• ELM tells you about ainchent thing in BLACKTHORN
+• Go to blackthorn, old man give you train ticket
+
+•Meet Bronze in Brown cave?
+
+Events to add:
+-Hey kid, don't tell anyone I gave you this. (Rare candy)
+-Spinning plates puzzles?
+-Forged badge someone has you smuggle, when shown the badge the person gets angry and battles you
+	-Option to buy expensive shitty badge, don't buy = fight
+-Pokemon wedding, help out with it. (Replace dance place with chapel)
+	Go to girl at chapel, ask to collect man & pokemon from a town or route
+		before event "A wedding, a wedding. Is there anything more magical than the love of two?"
+-Meet BRONZE in pokemart, change script location.
+	Replace Bill with Bronze sprite
+	
+-Pokemon marriage, "do you believe in love even if people think it's wrong?"
+	Find pokemon husbando? "I'm getting married to the love of my life" - collect them, they live at X- Find dragon and man at house
+	- Woman is standing in front of house which is the wedding place, asks you to find husband.
+
+add sign in newbark that gives all badges, level 100 pokemon, map
+DON'T FORGET TO CHANGE BADGE HM ALLOWANCES
+Gain Cut	  X
+Gain Strength X
+Gain Flash
+Gain Surf     X
+Gain Fly	  X
+
+Rocket Hideout/Takeover 1 - Art Gallery
+Rocket Hideout/Takeover 2 - Trigger is in Red Garydos
+Rocket Hideout/Takeover 3 - TV Station, triggers after hideout 2 in Gold
+
+;	checkcode VAR_PARTYCOUNT
+;	if_equal $6, UnknownScript_0x54c13
+
+	random $2
+	if_equal $0, UnknownScript_0x1a88b4
+
+=============
+Rocket Stuff:
+>Slowpoke Well
+>Mahogany Mart Rockets
+	EVENT_TEAM_ROCKET_BASE_POPULATION
+>Radio Tower Rockets
+	EVENT_GOLDENROD_CITY_ROCKET_SCOUT -For blocking BEFORE invasion
+>Goldenrod Underground Rockets
+==============
+Unused maps:
+ECRUTEAK_HOUSE
+==============
+EVENTS TO USE:
+X	EVENT_RADIO_TOWER_ROCKET_TAKEOVER
+X	EVENT_RADIO_TOWER_CIVILIANS_AFTER
+X	EVENT_CHARCOAL_KILN_FARFETCH_D
+X	EVENT_SLOWPOKE_WELL_KURT
+X	EVENT_AZALEA_TOWN_SLOWPOKES
+X	EVENT_KURTS_HOUSE_SLOWPOKE
+X	EVENT_KURTS_HOUSE_KURT_1
+	EVENT_GOLDENROD_CITY_ROCKET_TAKEOVER
+X	EVENT_RADIO_TOWER_BLACKBELT_BLOCKS_STAIRS
+X	EVENT_GOLDENROD_CITY_CIVILIANS
+	EVENT_ILEX_FOREST_LASS
+	EVENT_ROUTE_34_ILEX_FOREST_GATE_LASS
+	EVENT_MADE_UNOWN_APPEAR_IN_RUINS
+X	EVENT_HEALED_MOOMOO
+X	EVENT_GOT_TM13_SNORE_FROM_MOOMOO_FARM
+	EVENT_TALKED_TO_FARMER_ABOUT_MOOMOO
+X	EVENT_TOGEPI_HATCHED
+	EVENT_SHOWED_TOGEPI_TO_ELM ;Check ELM script
+X	EVENT_NATIONAL_PARK_TM_DIG
+	EVENT_TEAM_ROCKET_BASE_SECURITY_GRUNTS
+	EVENT_TURNED_OFF_SECURITY_CAMERAS
+X	EVENT_SECURITY_CAMERA_1
+X	EVENT_SECURITY_CAMERA_2
+X	EVENT_SECURITY_CAMERA_3
+X	EVENT_SECURITY_CAMERA_4
+X	EVENT_SECURITY_CAMERA_5
+X	EVENT_TEAM_ROCKET_BASE_B3F_X_SPECIAL
+X	EVENT_OLIVINE_GYM_JASMINE
+X	EVENT_LAKE_OF_RAGE_CIVILIANS
+	EVENT_BLACKTHORN_CITY_SUPER_NERD_BLOCKS_GYM
+	EVENT_BLACKTHORN_CITY_SUPER_NERD_DOES_NOT_BLOCK_GYM
+	EVENT_BLACKTHORN_CITY_GRAMPS_BLOCKS_DRAGONS_DEN
+	EVENT_BLACKTHORN_CITY_GRAMPS_NOT_BLOCKING_DRAGONS_DEN
+	EVENT_KRISS_NEIGHBORS_HOUSE_NEIGHBOR
+	EVENT_GUIDE_GENT_VISIBLE_IN_CHERRYGROVE
+	EVENT_GUIDE_GENT_IN_HIS_HOUSE
+	EVENT_WADE_ASKED_FOR_PHONE_NUMBER
+	EVENT_EARLS_ACADEMY_EARL
+X	clearevent EVENT_SWITCH_1
+X	clearevent EVENT_SWITCH_2
+X	clearevent EVENT_SWITCH_3
+	clearevent EVENT_EMERGENCY_SWITCH
+X	clearevent EVENT_SWITCH_4
+X	clearevent EVENT_SWITCH_5
+X	clearevent EVENT_SWITCH_6
+X	clearevent EVENT_SWITCH_7
+X	clearevent EVENT_SWITCH_8
+X	clearevent EVENT_SWITCH_9
+X	clearevent EVENT_SWITCH_10
+X	clearevent EVENT_SWITCH_11
+X	clearevent EVENT_SWITCH_12
+X	clearevent EVENT_SWITCH_13
+X	clearevent EVENT_SWITCH_14
+X	EVENT_JACK_ASKED_FOR_PHONE_NUMBER
+X	EVENT_TODD_ASKED_FOR_PHONE_NUMBER
+X	EVENT_GINA_ASKED_FOR_PHONE_NUMBER
+X	EVENT_ALAN_ASKED_FOR_PHONE_NUMBER
+X	EVENT_LIZ_ASKED_FOR_PHONE_NUMBER
+X	EVENT_IRWIN_ASKED_FOR_PHONE_NUMBER
+X	EVENT_ARNIE_ASKED_FOR_PHONE_NUMBER
+X	EVENT_WILTON_ASKED_FOR_PHONE_NUMBER
+X	EVENT_DEREK_ASKED_FOR_PHONE_NUMBER
+X	EVENT_DANA_ASKED_FOR_PHONE_NUMBER
+X	EVENT_HUEY_ASKED_FOR_PHONE_NUMBER
+	EVENT_BUENA_OFFERED_HER_PHONE_NUMBER_NO_BLUE_CARD
+X	EVENT_BUENA_OFFERED_HER_PHONE_NUMBER
+	EVENT_ECRUTEAK_CITY_GRAMPS
+	EVENT_ROUTE_25_MISTY_BOYFRIEND
+	EVENT_MAHOGANY_MART_OWNERS
+X	EVENT_MAHOGANY_MART_LANCE_AND_DRAGONITE - ALWAYS OFF
+X	EVENT_DECIDED_TO_HELP_LANCE
+X	EVENT_FOUGHT_SUDOWOODO
+	EVENT_ROUTE_35_NATIONAL_PARK_GATE_YOUNGSTER
+X	EVENT_GOT_QUICK_CLAW
+X	EVENT_GOT_SECRETPOTION_FROM_PHARMACY
+X	EVENT_JASMINE_EXPLAINED_AMPHYS_SICKNESS
+X	EVENT_TALKED_TO_SEAFOAM_GYM_GUY_ONCE
+	EVENT_ROUTE_36_NATIONAL_PARK_GATE_OFFICER_CONTEST_DAY   ---
+	EVENT_ROUTE_36_NATIONAL_PARK_GATE_OFFICER_NOT_CONTEST_DAY  |_ Don't Use
+	EVENT_ROUTE_35_NATIONAL_PARK_GATE_OFFICER_CONTEST_DAY      |
+	EVENT_ROUTE_35_NATIONAL_PARK_GATE_OFFICER_NOT_CONTEST_DAY--
+	EVENT_CHARCOAL_KILN_BOSS
+	EVENT_CHARCOAL_KILN_APPRENTICE
+	EVENT_TRAINERS_IN_CERULEAN_GYM
+X	EVENT_CERULEAN_GYM_ROCKET
+	EVENT_VIRIDIAN_GYM_BLUE
+	EVENT_SEAFOAM_GYM_GYM_GUY
+X	EVENT_GOT_SILVER_WING
+X	EVENT_BOULDER_IN_BLACKTHORN_GYM_1
+X	EVENT_BOULDER_IN_BLACKTHORN_GYM_2
+X	EVENT_BOULDER_IN_BLACKTHORN_GYM_3
+	EVENT_SAW_SUICUNE_AT_CIANWOOD_CITY
+	EVENT_MT_MOON_SQUARE_CLEFAIRY - Don't Use
+	EVENT_MT_MOON_SQUARE_ROCK     - Don't Use
+	EVENT_MOUNT_MOON_SQUARE_HIDDEN_MOON_STONE - Don't Use
+	
+	
+Triggers to replace:
+X GoldenrodGym
+  TeamRocketBaseB2FTrigger
+X TeamRocketBaseB3FTrigger
+X Route42
+X Route25
+  Route27 - to Charcoal Town
+  Route36?
+X CeruleanGym
+X Ecruteak Pokemon Center
+X WiseTriosRoom
+  Mr. Pokemon's House
+  Mount Moon
+  OlivinePortTrigger
+X UndergroundPathSwitchRoomEntrances
+  DragonShrineTrigger
+X MahoganyMart1FTrigger
+
+Special Calls to replace:
+X	specialphonecall SPECIALCALL_ROBBED
+
+=============
+
+clearevent
+
+Make sure an event is set or cleared, at the end of an earlier event before the next one starts.
+
+BADGE HM:
+
+1 - 
+2 - 
+3 - CUT
+4 - FLY
+5 - 
+6 - SURF
+7 - STRENGTH
+8 - 
+
+FLASH?
+==========
+
+Bugs: Boulders turn to people if you get an encounter on the first route
+=============
+
+Features:
+More open, less claustraphobic maps
+Less outside/internet references
+Team Rocket returns
+Two FULL regions!
+All Pokemon obtainable!
+"It's just like a real Pokemon game!"
+========
+Names:
+
+Player default names:
+Nick
+Nate
+Morty
+Duane
+
+Player default female names:
+Kait
+Carly
+Jodie
+Nicole
+Kelly?
+
+People names:
+X FUCHS
+JIMMOTHY - ChorpsAway
+
+====================
+Place Names:
+
+Romland Town
+Bronze Cave
+Devport City
+xSky City
+xSky Tower
+Serenity City
+Mauve Town
+Roseglen
+Lunavale
+Pokeroot Town
+Willowfield Town
+-Willowbrush Town
+-Old Oak Town
+Old Fern Town
+Fern Bark Town
+-Silverleaf Town
+Greenclover
+Soft Maple Town
+White Maple Town
+xRedbud City
+
+====================
+ELITE FOUR
+
+Kale: Botanist or something/florest?
+Hayden: He's a breeder that lives nearby a volcano in a farmlike place where they specialize in fire types. Most likely a sweet guy.
+Franci: A scientist that deals with chemicals.
+Chris: A tough guy. You can write him as you wish.
+Emily: Seems like a regular girl but has strong Pokemon despite them being normal as well. That's why she's 4th in line. Good sport about it when she loses.
+	CHANGE EMILY TO A MORE SIGNIFICANT CHARACTER, PUT HER SOMEWHERE IN THE STORY.
+====GYM LEADERS=====
+
+xMACK 	  - Ground - Purple
+xBLANCHE   - Electric
+LUNA	  - Dark   - Add Moonlight move?
+xSCARLET	  - Flying
+CORALINE  - Water
+CARVER	  - Rock
+xSEBASTIAN - Psychic
+HARKEN	  - Fighting
+====================
+
+People quotes:
+
+"I'm still waiting for them to build a HUMeMART. You know, a POKeMART for humans."
+
+X KOA "Now I know you don't always see eye to eye- this could be a bonding expereince for you both"
+
+super hidden signs with references to LPers
+
+"Please don't tell me boyfriend I was training with someone else!"
+
+"My Pokemon's PP was drained."
+
+"You are just a mere child to me."
+"You look weak! Help me feel better about myself."
+
+Pokecentre
+"We hope your Pokemon stay healthy"??
+
+Bikeshop
+"I moved from Kanto to Johto to Janto and I still can't get any buisness. Everbody just runs around
+in their fancy shoes these days. Feel free to just look at my bike range though."
+
+====================
+
+Route and Town seperated by route gate and just a fence
+
+Elite Four on final south route off to the east?
+
+singlepole fences?
+
+FAINT ATTACK to FEINT ATTACK
+
+A building you need to use Flash inside, windows covered.
+
+X route with long bridges
+
+Have pokemon hotel with secret PC
+
+Dark type gym, emo goths
+
+Have someone with a sight range far off the map, come up to you after you enter an area, gives you some
+internesting information maybe
+
+Goldenrod town, TV personality guy, TV network or something - woman, spins around, "Hello darling!"
+
+First GYM town, have a trainer from the gym take you to it. 
+
+After the goldenrod town, have that route be a forest, like directly forest and not a route and then forest.
+
+After first gym, have to go to azela town, then back to the third?
+Route 44 blocked by a HM move thing you need at Olivine
+
+Have a group of trainers with farfetch'ds that make farfetch puns
+
+Have a gym behind a cut bush and have to go to a thing and do things to get cut like red/blue
+
+Bill at pokemart, make it Bronze, but don't have them say anything.
+
+Have a guy say he's on some mystical quest, asks if you want to help
+oh you just want to collect badges? alright then.
+
+Bronze main character is the final battle. (Maybe switch them on gender swap?)
+
+Player character Nick/Kaitlyn, rival felicty
+
+Have a reference to dark gray stone
+
+"I've created a virtual reality pokemon game even your pokemon can play!"
+"Would you like to be a beta tester?"
+(Have glitches and stuff)
+(Teleports you into Kohto or something)
+Asks you to review it at the end, if you give it a good score you get a prize
+(Fly doesn't work, grass doesn't work, signs saying so bugs)
+Kanto Tileset
+
+Sprite swap item balls, to just be disappearing objects where you find something under it?
+
+Axman refrences
+
+Wherever chaos now is, please bring it back.
+
+All Star midi hidden.
+
+Event flag:
+EVENT_GOLDENROD_CITY_ROCKET_SCOUT <Guy that appears before the goldenrod takeover, dissappears after
+EVENT_GOLDENROD_CITY_CIVILIANS <Disappears? during rocket attack
+
+CREDITS:
+Map player walks through, stops at signs with credit text
+Rival following player
+Map group with rival sprite in it or monster sprite?
+
+-POKEMON BRONZE 2-
+
+Director:
+Freako
+
+Coding:
+Freako
+
+Writer:
+Freako
+
+Pokemon Teams:
+Daniruu
+
+Concept Art:
+Rainbow-Flyer
+Freako
+
+Sprites:
+Freako
+Galbert
+2redshirt (If use nick sprite)
+X
+
+Special Thanks:
+Rangi
+Pia Carrot
+Mateo

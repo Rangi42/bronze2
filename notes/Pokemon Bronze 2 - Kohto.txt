@@ -1,0 +1,98 @@
+python crowdmap/server.py 8000
+
+X Saffron City > Peel City
+X Virmilian City > Celeste City
+Fuchsia City > Gamboge Town - ADD MORE NPCS, tourists
+X Lavender Town > Littlepond
+Celadon City > Brandies City
+X Viridian City > Orchid City
+X Pewter City > Russet Town
+
+-#######FIX CELDON MANSION WARPS 
+-#######CHARCOAL GYM SIGNS
+-#######CASCADE POKEMON CENTER TEXT
+
+-####### One stone for each group of legendaries? IE,
+	Mew/Mewtwo/Celibi       -CLEAR_BELL (BROWN STONE)
+	Zapdos/Articuno/Moltres -SILVER_WING (GREEN STONE) X
+	Entei/Suicune/Raikou    -RED_SCALE (RED STONE)     X
+	Ho-oh/Lugia             -RAINBOW_WING (BLUE STONE) X
+
+----REGION 2----
+#As you collect stones, you can return to BLACKTHORN to get Poke
+•Take train to CHARCOAL TOWN
+	-Man blocking UNDERGROUND PATH (Construction work)
+	-Beat Bottom GYM
+	-KARLA is locked??
+@#@#@#EVENT WHERE SOMEONE STEALS YOUR PASS, CAN'T GO BACK ON TRAIN FOR A WHILE#@#@#@#
+	Happens IN the train station? Or it expires on first use.
+-UNDERGROUND PATH to Littlepond blocked
+###EVENT where you earn a STONE in Acre Forest###
+-JUNCTION PARK blocked from Route 6
+•Arrive PEEL CITY
+	-Beat GYM	
+	-Junction Park Blocked YOU MUST GET 4 BADGES TO PROGRESS HERE VAR MORE THAN 11
+•Arrive GAMBOGE TOWN
+	-Beat GYM
+###EVENT where you earn a STONE in CASCADE CITY SCARLET###
+	SCARLET calls you on your phone after the GYM, asks to be in her show
+	-Scarlet is the battelr? but you do the fighting against rocket imposters
+	(You must win the fight to earn the stone from the director)
+	Remove her from gym during this event
+	-Recreate the fight with team rocket at the TV station
+	-Has to be done in one take
+•Arrive BRANDIES CITY
+	-Beat GYM
+	you beat the gym people
+	person in leaders spot says leader is gone
+	go and find the leader, leader says he can't do it, just take the badge
+	go back to gym to get free badge
+	leader runs in and says no battle me for it, that's wrong
+then he's like NO U GOTTA BATTLE ME REEEEEEEEEEEe
+•Arrive RUSSET TOWN
+###EVENT where you get STONE in junction park
+	Have to find three trees/things to unlock and get final stone
+		Russet Town house, treasure finding girl asks you to find, i'll let you have something
+		I found if you can prove yourself as a adept treasure finder
+	-UNDERGROUND PATH to Littlepond blocked
+	-Beat GYM
+	-Explore BROWN CAVE,
+•Arrive ORCHID CITY
+	-Beat GYM========WHIRLPOOL IS NOW USABLE 
+•Arrive LITTLEPOND
+	-Underground Path is now open
+###EVENT where you earn a STONE, surf on to LITTLEPOND##
+	There is a glimmering "item" it gives you the SPECIALWATER and
+	selecting it sucks you towards it and warps you to another area.
+	Underground cave where a ritual is being performed with the stone.
+	With this stone we can beat anyone. Grants undefeatable power
+	You beat them, they decide the stone is worthless.
+•Arrive CARTRIDGE TOWN
+	-I knew a kid from this town, he went on a grand adventure just like you!
+	-GET WHIRLPOOL FROM PROF KOA
+	-Use WHIRLPOOL to get to CELESTE CITY
+•Arrive CHARCOAL Town
+	-Beat KARLA Gym
+•Arrive CELESTE CITY
+	-Beat GYM, TRIGGERS EVENT OF PERSON MOVING (BIG DARK FOREST??)
+GAIN ACCESS TO AN AREA WHERE YOU DEFEAT BRONZE
+
+X Cerulean City > Charcoal Town
+X Pallet Town > Cartidge Town
+Cinnabar Island > Guard Tower
+
+Route 8 gate apprentice?
+Lavender/littlepond underground path seperate map with different music
+ADD ROUTE BETWEEN >>>>>>>>> CHARCOAL TOWN
+
+Route 7 > Route 1
+Route 1 > Route 2
+Route 6 > Route 3
+Route 3 > Route 4
+Route 5 > Route 5
+
+
+
+
+Route 4 > Route 10
+Route 25 > Park
