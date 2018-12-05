@@ -566,7 +566,7 @@ PokegearMap_KantoMap: ; 90fe9 (24:4fe9)
 	jr PokegearMap_ContinueMap
 
 PokegearMap_JohtoMap: ; 90fee (24:4fee)
-	ld d, SILVER_CAVE
+	ld d, INDIGO_PLATEAU
 	ld e, NEW_BARK_TOWN
 PokegearMap_ContinueMap: ; 90ff2 (24:4ff2)
 	ld hl, hJoyLast
@@ -734,16 +734,8 @@ PokegearMap_UpdateCursorPosition: ; 910d4
 ; 910e8
 
 TownMap_GetKantoLandmarkLimits: ; 910e8
-	ld a, [StatusFlags]
-	bit 6, a
-	jr z, .not_hof
-	ld d, ROUTE_28
+	ld d, SILVER_CAVE
 	ld e, PALLET_TOWN
-	ret
-
-.not_hof
-	ld d, ROUTE_28
-	ld e, VICTORY_ROAD
 	ret
 
 ; 910f9

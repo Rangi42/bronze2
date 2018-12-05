@@ -42,6 +42,7 @@
 	const VICTORY_ROAD      ; 58
 	const ROUTE_23          ; 59
 	const INDIGO_PLATEAU    ; 5a
+
 	const SPROUT_TOWER      ; 07 ;Above Here
 	const LIGHTHOUSE        ; 1c
 	const RUINS_OF_ALPH     ; 09
@@ -83,6 +84,7 @@ KANTO_LANDMARK EQU const_value
 	const ROUTE_12          ; 50
 	const VERMILION_CITY    ; 3d
 	const SILVER_CAVE       ; 2e
+
 	const ROUTE_2           ; 30 ;above
 	const ROUTE_24          ; 38
 	const UNDERGROUND       ; 3b
