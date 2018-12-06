@@ -656,7 +656,7 @@ PokegearMap_ContinueMap: ; 90ff2 (24:4ff2)
 PokegearMap_InitPlayerIcon: ; 9106a
 	push af
 	depixel 0, 0
-	ld b, SPRITE_ANIM_INDEX_RED_WALK
+	ld b, SPRITE_ANIM_INDEX_BROWN_WALK
 	ld a, [PlayerGender]
 	bit 0, a
 	jr z, .got_gender
@@ -2933,7 +2933,7 @@ TownMapPlayerIcon: ; 91fa6
 	call Request2bpp
 ; Animation/palette
 	depixel 0, 0
-	ld b, SPRITE_ANIM_INDEX_RED_WALK ; Male
+	ld b, SPRITE_ANIM_INDEX_BROWN_WALK ; Male
 	ld a, [PlayerGender]
 	bit 0, a
 	jr z, .got_gender

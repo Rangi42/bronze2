@@ -65,6 +65,7 @@ SpriteAnimFrameData: ; 8d6e6
 	dw .Frameset_3f ; 3f
 	dw .Frameset_40 ; 40 celebi on the left
 	dw .Frameset_41 ; 41 celebi on the right
+	dw .Frameset_42 ; 42 brown walk
 ; 8d76a
 ; OAM idx (see SpriteAnimOAMData), flip flags/duration
 .Frameset_00:
@@ -239,10 +240,10 @@ SpriteAnimFrameData: ; 8d6e6
 	db -1
 
 .Frameset_1b:
-	db $41, $08
-	db $42, $08
-	db $41, $08
-	db $42, $48
+	db $8e, $08
+	db $8f, $08
+	db $8e, $08
+	db $8f, $48
 	db -2
 	db $43, $08
 	db $44, $08
@@ -477,6 +478,13 @@ SpriteAnimFrameData: ; 8d6e6
 	db $7f, $48
 	db $80, $48
 	db -1
+
+.Frameset_42:
+	db $8c, $08
+	db $8d, $08
+	db $8c, $08
+	db $8d, $48
+	db -2
 ; 8d94d
 
 SpriteAnimOAMData: ; 8d94d
@@ -621,6 +629,10 @@ SpriteAnimOAMData: ; 8d94d
 	dbw $08, .OAMData_84 ; 89
 	dbw $04, .OAMData_84 ; 8a
 	dbw $00, .OAMData_84 ; 8b
+	dbw $00, .OAMData_8c ; 8c
+	dbw $04, .OAMData_8c ; 8d
+	dbw $00, .OAMData_8e ; 8e
+	dbw $04, .OAMData_8e ; 8f
 
 .OAMData_02:
 	db 1
@@ -1613,6 +1625,20 @@ SpriteAnimOAMData: ; 8d94d
 	dsprite  0,  0, -1,  4, $51, $01
 	dsprite  0,  0,  0,  4, $52, $01
 	dsprite  0,  0,  1,  4, $53, $01
+
+.OAMData_8c:
+	db 4
+	dsprite -1,  0, -1,  0, $00, $03
+	dsprite -1,  0,  0,  0, $01, $03
+	dsprite  0,  0, -1,  0, $02, $03
+	dsprite  0,  0,  0,  0, $03, $03
+
+.OAMData_8e:
+	db 4
+	dsprite -1,  0, -1,  0, $00, $83
+	dsprite -1,  0,  0,  0, $01, $83
+	dsprite  0,  0, -1,  0, $02, $83
+	dsprite  0,  0,  0,  0, $03, $83
 ; 8e706
 BrokenStdGFXPointers: ; Broken 2bpp pointers
 	dbbw $80, $01, .deleted ; 128-tile 2bpp at 1:672a (inside Multiply)
