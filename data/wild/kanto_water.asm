@@ -137,5 +137,11 @@
 	db 35, TENTACOOL
 	db 30, TENTACOOL
 	db 35, TENTACRUEL
+	
+	map CERULEAN_CITY
+    db 4 percent ; encounter rate
+    db 20, GOLDEEN
+    db 20, SLOWPOKE
+    db 20, SEAKING
 
 	db -1 ; end

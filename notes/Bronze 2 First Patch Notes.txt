@@ -4,6 +4,7 @@ NOTES:
 -Text is KEY POCKET
 
 BUGS TO FIX:
+-top left of resturaunt there's an item ball
 -add event check to current town's TVs to show SCARLET text?
 -All trainer names change
 -ADD FINAL DEV DIARY
@@ -17,23 +18,13 @@ BUGS TO FIX:
 	(When you have super potion..?)
 -THROUGH HERE Through Here, Are both used throughout the maps. Unify it.
 -Right most house in littlepond exits you to the left most house.
--Blue fat guy in Cartridge town turns into letters (Group 13, Route Group 21)
 -Blocked final mountain, if you talk to the guard before you get permission he says you do.
 -"East my dust, Dweeb" shouldn't be capitalized (rival's house)
 -Fire guy in Bronze cave can walk over the barrier to the left
+-Add up & down stairs to resturaunt tileset with tiles for them as well
 
 Things I can't do:
--encounter rate in sprout tower 0/ask how to disable
--Add up & down stairs to resturaunt tileset with tiles for them as well
--Mt Redstone new tiles with ramps
-	(This is just the regular Johto tileset which needs a new tile)
--Fix the town map/fly map
-	(Garbage locations show up on the map, Kohto flying appears out of order)
--Rocket music in art gallery
--Two new town tilesets for unique Kohto graphics
-	(Exact copies of Johto's two tilesets so I can edit them to be different for Kohto)
--Increase speed of running shoes animation
--Add stairs to park tileset
+-Fix the fly map
 -Add wild water pokemon to Charcoal Town (Cerulean City)
 -Add wild pokemon to Mt. Moon Square
 -Add wild water pokemon to Victory Road

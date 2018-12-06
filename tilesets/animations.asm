@@ -82,6 +82,7 @@ Tileset31Anim: ; 0xfc073
 ; 0xfc0a3
 
 Tileset01Anim: ; 0xfc0a3
+Tileset37Anim: 
 	dw VTiles2 tile $14, AnimateWaterTile
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation

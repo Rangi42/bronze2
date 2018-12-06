@@ -136,5 +136,5 @@ PalletTown_MapEventHeader:: db 0, 0
 
 .ObjectEvents: db 3
 	person_event SPRITE_COOLTRAINER_F, 6, 17, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, (1 << 3) | PAL_OW_BLUE, PERSONTYPE_SCRIPT, 0, TeacherScript_0x1ac6d5, -1
-	person_event SPRITE_FISHER, 12, 12, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, (1 << 3) | PAL_OW_BLUE, PERSONTYPE_SCRIPT, 0, WeatherManScript, -1
+	person_event SPRITE_FISHER, 12, 12, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 1, -1, -1, (1 << 3) | PAL_OW_BLUE, PERSONTYPE_SCRIPT, 0, WeatherManScript, -1
 	person_event SPRITE_YOUNGSTER, 6, 6, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 1, -1, -1, (1 << 3) | PAL_OW_GREEN, PERSONTYPE_SCRIPT, 0, CartridgeBoy1, -1

@@ -132,3 +132,6 @@ INCLUDE "tilesets/04_palette_map.asm"
 UnusedPalMap2:
 INCBIN "tilesets/unused_palette_map_2.bin"
 ; 4ce1f
+
+Tileset37PalMap: 
+INCLUDE "tilesets/37_palette_map.asm"
