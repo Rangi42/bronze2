@@ -566,7 +566,7 @@ PokegearMap_KantoMap: ; 90fe9 (24:4fe9)
 	jr PokegearMap_ContinueMap
 
 PokegearMap_JohtoMap: ; 90fee (24:4fee)
-	ld d, SILVER_CAVE
+	ld d, INDIGO_PLATEAU
 	ld e, NEW_BARK_TOWN
 PokegearMap_ContinueMap: ; 90ff2 (24:4ff2)
 	ld hl, hJoyLast
@@ -656,7 +656,7 @@ PokegearMap_ContinueMap: ; 90ff2 (24:4ff2)
 PokegearMap_InitPlayerIcon: ; 9106a
 	push af
 	depixel 0, 0
-	ld b, SPRITE_ANIM_INDEX_RED_WALK
+	ld b, SPRITE_ANIM_INDEX_BROWN_WALK
 	ld a, [PlayerGender]
 	bit 0, a
 	jr z, .got_gender
@@ -734,16 +734,8 @@ PokegearMap_UpdateCursorPosition: ; 910d4
 ; 910e8
 
 TownMap_GetKantoLandmarkLimits: ; 910e8
-	ld a, [StatusFlags]
-	bit 6, a
-	jr z, .not_hof
-	ld d, ROUTE_28
+	ld d, SILVER_CAVE
 	ld e, PALLET_TOWN
-	ret
-
-.not_hof
-	ld d, ROUTE_28
-	ld e, VICTORY_ROAD
 	ret
 
 ; 910f9
@@ -2941,7 +2933,7 @@ TownMapPlayerIcon: ; 91fa6
 	call Request2bpp
 ; Animation/palette
 	depixel 0, 0
-	ld b, SPRITE_ANIM_INDEX_RED_WALK ; Male
+	ld b, SPRITE_ANIM_INDEX_BROWN_WALK ; Male
 	ld a, [PlayerGender]
 	bit 0, a
 	jr z, .got_gender

@@ -1,3 +1,9 @@
+ifneq ($(wildcard rgbds/.*),)
+RGBDS_DIR = rgbds/
+else
+RGBDS_DIR =
+endif
+
 PYTHON := python
 MD5 := md5sum -c --quiet
 
@@ -45,19 +51,19 @@ compare: pokebronze2.gbc pokebronze211.gbc
 
 %11.o: dep = $(shell $(includes) $(@D)/$*.asm)
 %11.o: %.asm $$(dep)
-	rgbasm -D CRYSTAL11 -o $@ $<
+	$(RGBDS_DIR)rgbasm -D CRYSTAL11 -o $@ $<
 
 %.o: dep = $(shell $(includes) $(@D)/$*.asm)
 %.o: %.asm $$(dep)
-	rgbasm -o $@ $<
+	$(RGBDS_DIR)rgbasm -o $@ $<
 
 pokebronze211.gbc: $(crystal11_obj)
-	rgblink -n pokebronze211.sym -m pokebronze211.map -o $@ $^
-	rgbfix -Cjv -i BYTE -k 01 -l 0x33 -m 0x10 -n 1 -p 0 -r 3 -t PM_CRYSTAL $@
+	$(RGBDS_DIR)rgblink -n pokebronze211.sym -m pokebronze211.map -o $@ $^
+	$(RGBDS_DIR)rgbfix -Cjv -i BYTE -k 01 -l 0x33 -m 0x10 -n 1 -p 0 -r 3 -t PM_CRYSTAL $@
 
 pokebronze2.gbc: $(crystal_obj)
-	rgblink -n pokebronze2.sym -m pokebronze2.map -o $@ $^
-	rgbfix -Cjv -i BYTE -k 01 -l 0x33 -m 0x10 -p 0 -r 3 -t PM_CRYSTAL $@
+	$(RGBDS_DIR)rgblink -n pokebronze2.sym -m pokebronze2.map -o $@ $^
+	$(RGBDS_DIR)rgbfix -Cjv -i BYTE -k 01 -l 0x33 -m 0x10 -p 0 -r 3 -t PM_CRYSTAL $@
 
 %.png: ;
 %.2bpp: %.png ; $(gfx) 2bpp $<

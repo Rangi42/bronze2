@@ -234,7 +234,16 @@ endr
 	ld [hli], a
 	ld [hl], a
 	pop de
+	ld b, SPRITE_ANIM_INDEX_BROWN_WALK
+	ld a, d
+	cp SilverSpriteGFX / $100
+	jr nz, .not_rival
+	ld a, e
+	cp SilverSpriteGFX % $100
+	jr nz, .not_rival
 	ld b, SPRITE_ANIM_INDEX_RED_WALK
+	jr .not_kris
+.not_rival
 	ld a, d
 	cp KrisSpriteGFX / $100
 	jr nz, .not_kris

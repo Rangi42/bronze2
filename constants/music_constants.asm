@@ -103,6 +103,7 @@
 	const MUSIC_SUICUNE_BATTLE               ; 64
 	const MUSIC_BATTLE_TOWER_LOBBY           ; 65
 	const MUSIC_MOBILE_CENTER                ; 66
-;	const MUSIC_REDDUNGEON1                 ; 66
+;	const MUSIC_REDDUNGEON1                  ; 66
 
-MUSIC_MAHOGANY_MART EQU $64 ; leftover from gold
+; music that changes based on game state
+	const VARMUSIC_ART_GALLERY               ; 67
