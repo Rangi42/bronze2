@@ -27,7 +27,7 @@ IndigoPlateauSignText:
 Route23_MapEventHeader:: db 0, 0
 
 .Warps: db 4
-	warp_def 5, 8, 1, INDIGO_PLATEAU_POKECENTER_1F
+	warp_def 5, 9, 1, INDIGO_PLATEAU_POKECENTER_1F
 	warp_def 5, 10, 2, INDIGO_PLATEAU_POKECENTER_1F
 	warp_def 13, 9, 10, VICTORY_ROAD
 	warp_def 13, 10, 10, VICTORY_ROAD

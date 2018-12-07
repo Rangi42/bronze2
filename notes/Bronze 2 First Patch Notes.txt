@@ -11,7 +11,9 @@ BUGS TO FIX:
 -Make sure all pokemon are avaliable (Check Pokedex)
 -Change GAME CORNER prizes
 -Change rival gender
--Change professor sprite
+-Change professor sprites
+-Change Bronze rival sprite
+-Add ramp graphics to Brandies City
 
 Things I can't do:
 -Fix the fly map
