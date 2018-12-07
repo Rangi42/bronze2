@@ -103,8 +103,8 @@ MrFujisHouse_MapEventHeader:: db 0, 0
 .Warps: db 4
 	warp_def 7, 2, 2, LAVENDER_TOWN
 	warp_def 7, 3, 2, LAVENDER_TOWN
-	warp_def 7, 16, 2, LAVENDER_TOWN
-	warp_def 7, 17, 2, LAVENDER_TOWN
+	warp_def 7, 16, 4, LAVENDER_TOWN
+	warp_def 7, 17, 4, LAVENDER_TOWN
 
 .CoordEvents: db 0
 

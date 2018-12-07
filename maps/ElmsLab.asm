@@ -886,7 +886,7 @@ ElmText_Intro:
 	
 	para "travel to"
 	line "SILVERLEAF TOWN"
-	cont "and bring her back"
+	cont "and bring him back"
 	cont "here?"
 	
 	para "Hmm…"
@@ -1051,7 +1051,7 @@ ElmDirectionsText1:
 	line "just west of here."
 	
 	para "bring them back"
-	line "to the lab so she"
+	line "to the lab so he"
 	
 	para "can choose a"
 	line "#MON too!"
@@ -1186,7 +1186,7 @@ ElmStudyingEggText:
 	line "make sure that you"
 	cont "talk to your MOM."
 	
-	para "she'll want to"
+	para "She'll want to"
 	line "know if you've"
 	cont "left."
 	done

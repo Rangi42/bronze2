@@ -868,10 +868,11 @@ TextQuizAnswered1
 
 IlexForest_MapEventHeader:: db 0, 0
 
-.warps: db 3
-	warp_def 5, 1, 3, ROUTE_34_ILEX_FOREST_GATE
-	warp_def 42, 23, 1, ILEX_FOREST_AZALEA_GATE
-	warp_def 43, 23, 2, ILEX_FOREST_AZALEA_GATE
+.Warps: db 4
+	warp_def 2, 2, 3, ROUTE_34_ILEX_FOREST_GATE
+	warp_def 42, 27, 1, ILEX_FOREST_AZALEA_GATE
+	warp_def 43, 27, 2, ILEX_FOREST_AZALEA_GATE
+	warp_def 2, 3, 4, ROUTE_34_ILEX_FOREST_GATE
 
 .CoordEvents: db 0
 

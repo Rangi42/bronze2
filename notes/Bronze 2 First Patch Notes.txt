@@ -4,24 +4,14 @@ NOTES:
 -Text is KEY POCKET
 
 BUGS TO FIX:
--top left of resturaunt there's an item ball
 -add event check to current town's TVs to show SCARLET text?
 -All trainer names change
 -ADD FINAL DEV DIARY
 -Finish GYM leader sprites/Elite Four
 -Make sure all pokemon are avaliable (Check Pokedex)
--Bronze mom sprite change
 -Change GAME CORNER prizes
--Change first GYM layout
--Janto Route 4, arthur of thursday remove
--Shopping woman's text box opens, closes, opens on 2nd talk to
-	(When you have super potion..?)
--THROUGH HERE Through Here, Are both used throughout the maps. Unify it.
--Right most house in littlepond exits you to the left most house.
--Blocked final mountain, if you talk to the guard before you get permission he says you do.
--"East my dust, Dweeb" shouldn't be capitalized (rival's house)
--Fire guy in Bronze cave can walk over the barrier to the left
--Add up & down stairs to resturaunt tileset with tiles for them as well
+-Change rival gender
+-Change professor sprite
 
 Things I can't do:
 -Fix the fly map

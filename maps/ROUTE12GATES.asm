@@ -61,10 +61,18 @@ BlockDoNothing1:
 	
 OfficerBlockSilver:
 	opentext
+	checkevent EVENT_BEAT_LTSURGE
+	iffalse Getouttahere12
 	writetext OfficerBlockSilverText1
 	waitbutton
 	closetext
 	end
+Getouttahere12
+	writetext Route12YouCantPassText
+	waitbutton
+	closetext
+	end
+	
 	
 Route12GateGramps:
 	jumptextfaceplayer Route12GateGrampsText

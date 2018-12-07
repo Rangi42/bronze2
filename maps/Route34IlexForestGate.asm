@@ -138,7 +138,7 @@ Route34IlexForestGate_MapEventHeader:: db 0, 0
 	warp_def 0, 4, 5, ROUTE_32
 	warp_def 0, 5, 7, ROUTE_32
 	warp_def 7, 4, 1, ILEX_FOREST
-	warp_def 7, 5, 1, ILEX_FOREST
+	warp_def 7, 5, 4, ILEX_FOREST
 
 .CoordEvents: db 1
 	xy_trigger 0, 9, 4, 0, UnknownScript_0x62d3d, 0, 0

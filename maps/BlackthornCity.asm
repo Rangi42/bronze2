@@ -994,12 +994,12 @@ BlackthornCity_MapEventHeader:: db 0, 0
 	signpost 32, 30, SIGNPOST_READ, BlackthornCityNowLeavingSign
 	signpost -1, 0, SIGNPOST_READ, BlackthornCityGiveStonesSign
 	signpost 1, 1, SIGNPOST_READ, BlackthornCityRedStoneSign
-	signpost 1, 0, SIGNPOST_READ, BlackthornCityRedStoneSign
-	signpost 1, 5, SIGNPOST_READ, BlackthornCityBlueStoneSign
+	signpost 0, 1, SIGNPOST_READ, BlackthornCityRedStoneSign
+	signpost 0, 4, SIGNPOST_READ, BlackthornCityBlueStoneSign
 	signpost 1, 4, SIGNPOST_READ, BlackthornCityBlueStoneSign
 	signpost 1, 9, SIGNPOST_READ, BlackthornCityGreenStoneSign
-	signpost 1, 8, SIGNPOST_READ, BlackthornCityGreenStoneSign
-	signpost 1, 13, SIGNPOST_READ, BlackthornCityBrownStoneSign
+	signpost 0, 9, SIGNPOST_READ, BlackthornCityGreenStoneSign
+	signpost 0, 12, SIGNPOST_READ, BlackthornCityBrownStoneSign
 	signpost 1, 12, SIGNPOST_READ, BlackthornCityBrownStoneSign
 	signpost 28, 14, SIGNPOST_READ, BlackthornCityDEVScript
 	signpost 8, 32, SIGNPOST_ITEM, BlackthronHiddenItem1

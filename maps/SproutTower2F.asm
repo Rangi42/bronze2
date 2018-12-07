@@ -91,10 +91,10 @@ UnknownText_0x1848c8:
 SproutTower2F_MapEventHeader:: db 0, 0
 
 .Warps: db 4
+	warp_def 17, 18, 3, SPROUT_TOWER_1F
 	warp_def 15, 18, 3, SPROUT_TOWER_1F
-	warp_def 15, 19, 4, SPROUT_TOWER_1F
 	warp_def 1, 0, 5, SPROUT_TOWER_1F
-	warp_def 15, 4, 1, SPROUT_TOWER_3F
+	warp_def 15, 5, 1, SPROUT_TOWER_3F
 
 .CoordEvents: db 0
 
@@ -103,5 +103,5 @@ SproutTower2F_MapEventHeader:: db 0, 0
 
 .ObjectEvents: db 3
 	person_event SPRITE_BLACK_BELT, 8, 10, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, (1 << 3) | PAL_OW_BROWN, PERSONTYPE_TRAINER, 4, TrainerSageNico, -1
-	person_event SPRITE_BLACK_BELT, 15, 5, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, (1 << 3) | PAL_OW_BROWN, PERSONTYPE_TRAINER, 5, TrainerSageEdmond, -1
+	person_event SPRITE_BLACK_BELT, 14, 7, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, (1 << 3) | PAL_OW_BROWN, PERSONTYPE_TRAINER, 3, TrainerSageEdmond, -1
 	person_event SPRITE_POKE_BALL, 1, 3, SPRITEMOVEDATA_ITEM_TREE, 0, 0, -1, -1, 0, PERSONTYPE_ITEMBALL, 0, SproutTower2FXAccuracy, EVENT_SPROUT_TOWER2F_X_ACCURACY

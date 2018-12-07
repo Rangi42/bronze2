@@ -479,8 +479,8 @@ UnknownText_0x74008:
 DiglettsCave_MapEventHeader:: db 0, 0
 
 .Warps: db 6
-	warp_def 6, 5, 3, ROUTE13FORESTGATES
-	warp_def 7, 5, 4, ROUTE13FORESTGATES
+	warp_def 6, 0, 3, ROUTE13FORESTGATES
+	warp_def 7, 0, 4, ROUTE13FORESTGATES
 	warp_def 32, 31, 5, ROUTE13FORESTGATES
 	warp_def 33, 31, 6, ROUTE13FORESTGATES
 	warp_def 0, 1, 2, DIGLETTS_CAVE

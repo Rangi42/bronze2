@@ -238,8 +238,8 @@ MrPokemonIntroText1:
 	line "Oh, you're looking"
 	cont "for <RIVAL>?"
 	
-	para "She's upstairs"
-	line "playing her video"
+	para "He's upstairs"
+	line "playing his video"
 	cont "games."
 	
 	para "I know you two"
@@ -349,7 +349,7 @@ MrPokemonsHouse_OakText1:
 	cont "Ready? Go!"
 	
 	para "Eat my dust,"
-	line "Dweeb."
+	line "dweeb."
 	done
 
 MrPokemonsHouse_GetDexText:
