@@ -209,7 +209,7 @@ ViridianGym_MapEventHeader:: db 0, 0
 .CoordEvents: db 0
 
 .BGEvents: db 2
-	signpost 13, 2, SIGNPOST_READ, ViridianGymStatue
+	signpost 13, 3, SIGNPOST_READ, ViridianGymStatue
 	signpost 13, 6, SIGNPOST_READ, ViridianGymStatue
 
 .ObjectEvents: db 4

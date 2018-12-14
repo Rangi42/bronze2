@@ -3,6 +3,10 @@ python crowdmap/server.py 8000
 C:\cygwin64\Freako\home\Casey\Bronze\
 
 …
+
+git add .
+git commit -m "push name"
+git push origin master
 	
 python gfx.py png gfx/trainers/whitney.2bpp.lz
 

@@ -328,7 +328,7 @@ SaffronCity_MapEventHeader:: db 0, 0
 .CoordEvents: db 0
 
 .BGEvents: db 10
-	signpost 17, 18, SIGNPOST_READ, SaffronCitySign
+	signpost 16, 20, SIGNPOST_READ, SaffronCitySign
 	signpost 27, 9, SIGNPOST_READ, SaffronGymSign
 	signpost 5, 27, SIGNPOST_READ, FightingDojoSign
 	signpost 21, 5, SIGNPOST_READ, SilphCoSign

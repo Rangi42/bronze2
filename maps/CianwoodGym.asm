@@ -344,7 +344,7 @@ CianwoodGym_MapEventHeader:: db 0, 0
 .CoordEvents: db 0
 
 .BGEvents: db 2
-	signpost 17, 2, SIGNPOST_READ, CianwoodGymStatue
+	signpost 17, 3, SIGNPOST_READ, CianwoodGymStatue
 	signpost 17, 6, SIGNPOST_READ, CianwoodGymStatue
 
 .ObjectEvents: db 7

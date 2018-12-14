@@ -245,7 +245,7 @@ Route8_MapEventHeader:: db 0, 0
 .CoordEvents: db 0
 
 .BGEvents: db 2
-	signpost 12, 6, SIGNPOST_READ, Route8UndergroundPathSign
+	signpost 13, 5, SIGNPOST_READ, Route8UndergroundPathSign
 	signpost 9, 45, SIGNPOST_READ, Route8LockedDoor
 
 .ObjectEvents: db 7

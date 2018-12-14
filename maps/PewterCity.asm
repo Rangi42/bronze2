@@ -146,7 +146,7 @@ PewterCitySignText:
 	done
 
 PewterGymSignText:
-	text "PEWTER CITY"
+	text "RUSSET TOWN"
 	line "#MON GYM"
 	cont "LEADER: WEEDY"
 
