@@ -454,11 +454,11 @@ VioletCity_MapEventHeader:: db 0, 0
 .Warps: db 10
 	warp_def 23, 17, 2, VIOLET_MART
 	warp_def 13, 2, 1, VIOLET_GYM
-	warp_def 9, 28, 2, EARLS_POKEMON_ACADEMY
+	warp_def 9, 29, 2, EARLS_POKEMON_ACADEMY
 	warp_def 11, 15, 1, VIOLET_NICKNAME_SPEECH_HOUSE
 	warp_def 25, 27, 1, VIOLET_POKECENTER_1F
 	warp_def 17, 15, 1, VIOLET_ONIX_TRADE_HOUSE
-	warp_def 9, 27, 1, EARLS_POKEMON_ACADEMY
+	warp_def 9, 28, 1, EARLS_POKEMON_ACADEMY
 	warp_def 28, 39, 1, ROUTE_31_VIOLET_GATE
 	warp_def 29, 39, 2, ROUTE_31_VIOLET_GATE
 	warp_def 41, 22, 2, SAFFRON_TRAIN_STATION

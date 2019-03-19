@@ -20,7 +20,6 @@ ENDM
 	spawn SAFFRON_CITY,                21, 14
 	spawn CELADON_CITY,               21, 26
 	spawn FUCHSIA_CITY,               17, 10
-	spawn CINNABAR_ISLAND,            11, 12
 	spawn ROUTE_23,                    8,  6
 
 	spawn NEW_BARK_TOWN,              13,  4

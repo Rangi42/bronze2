@@ -1545,7 +1545,7 @@ RadioChannels:
 
 .RuinsOfAlphRadio:
 	ld a, [wPokegearMapPlayerIconLandmark]
-	cp RUINS_OF_ALPH
+	cp MAHOGANY_TOWN
 	jr nz, .NoSignal
 	jp LoadStation_UnownRadio
 
@@ -2363,7 +2363,6 @@ KANTO_FLYPOINT EQU const_value
 	flypoint CELADON,     CELADON_CITY
 	flypoint SAFFRON,     SAFFRON_CITY
 	flypoint FUCHSIA,     FUCHSIA_CITY
-	flypoint CINNABAR,    CINNABAR_ISLAND
 	flypoint MT_SILVER,   SILVER_CAVE
 	db -1
 

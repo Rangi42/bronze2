@@ -122,7 +122,7 @@ PalletTown_MapEventHeader:: db 0, 0
 	warp_def 11, 2, 1, CELADON_CITY
 	warp_def 12, 2, 1, SAFFRON_CITY
 	warp_def 13, 2, 1, FUCHSIA_CITY
-	warp_def 14, 2, 1, CINNABAR_ISLAND
+	warp_def 14, 2, 1, FUCHSIA_CITY
 	warp_def 15, 2, 1, NEW_BARK_TOWN
 	warp_def 13, 5, 4, REDS_HOUSE_1F
 

@@ -157,14 +157,14 @@ UnknownText_0x9bb37:
 VictoryRoadGate_MapEventHeader:: db 0, 0
 
 .Warps: db 8
-	warp_def 7, 17, 1, ROUTE_22
-	warp_def 7, 18, 1, ROUTE_22
+	warp_def 7, 17, 1, ROUTE_40
+	warp_def 7, 18, 1, ROUTE_40
 	warp_def 13, 15, 3, ROUTE_27
 	warp_def 12, 15, 2, ROUTE_27
 	warp_def 13, 2, 1, ROUTE_26
 	warp_def 12, 2, 5, ROUTE_26
-	warp_def 7, 1, 2, ROUTE_28
-	warp_def 7, 2, 2, ROUTE_28
+	warp_def 7, 1, 2, ROUTE_40
+	warp_def 7, 2, 2, ROUTE_40
 
 .CoordEvents: db 1
 	xy_trigger 0, 11, 10, 0, UnknownScript_0x9b9fd, 0, 0

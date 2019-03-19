@@ -97,16 +97,6 @@ ENDM
 	landmark $3C, $84, VictoryRoadName
 	landmark $3C, $80, Route23Name
 	landmark $3C, $7C, IndigoPlateauName
-	landmark  0,  0, SproutTowerName ;Above Here
-	landmark 0,  0, LighthouseName
-	landmark  0,  0, RuinsOfAlphName
-	landmark  0,  0, SlowpokeWellName
-	landmark  0,  0, TinTowerName
-	landmark  0,  0, BurnedTowerName
-	landmark  0,  0, BattleTowerName
-	landmark  0,  0, WhirlIslandsName
-	landmark 0,  0, DragonsDenName
-	landmark 0,  0, DarkCaveName
 	landmark $2C, $44, PalletTownName
 	landmark $3C, $44, Route7Name 
 	landmark $4C, $44, LavenderTownName
@@ -135,22 +125,7 @@ ENDM
 	landmark $8C, $80, Route12Name ;ROUTE 14
 	landmark $8C, $94, VermilionCityName
 	landmark $94, $74, SilverCaveName
-	landmark  0, 0, Route2Name ;above
-	landmark 0, 0, Route24Name
 	landmark 0, 0, UndergroundName
-	landmark 0, 0, Route10Name
-	landmark 0, 0, PowerPlantName
-	landmark 0, 0, LavRadioTowerName
-	landmark  0, 0, Route16Name
-	landmark  0, 0, Route17Name
-	landmark 0, 0, Route19Name
-	landmark  0, 0, Route20Name
-	landmark  0, 0, SeafoamIslandsName
-	landmark  0, 0, CinnabarIslandName
-	landmark  0, 0, Route21Name
-	landmark  0, 0, Route22Name
-	landmark  0, 0, TohjoFallsName
-	landmark 0, 0, Route28Name
 	landmark 148, 132, FastShipName
 
 
@@ -166,18 +141,10 @@ MahoganyTownName:    db "WILDBARK¯VILLAGE@"
 BlackthornCityName:  db "HARDROOT¯TOWN@"
 LakeOfRageName:      db "MT.¯REDSTONE@"
 SilverCaveName:      db "MT. ENDER@"
-SproutTowerName:     db "SPROUT¯TOWER@"
-RuinsOfAlphName:     db "RUINS¯OF ALPH@"
 UnionCaveName:       db "BRONZE CAVE@"
-SlowpokeWellName:    db "SLOWPOKE¯WELL@"
 RadioTowerName:      db "TV STATION@"
-PowerPlantName:      db "POWER PLANT@"
 NationalParkName:    db "FELONWOOD¯PARK@"
-TinTowerName:        db "TIN TOWER@"
-LighthouseName:      db "LIGHTHOUSE@"
-WhirlIslandsName:    db "WHIRL¯ISLANDS@"
 MtMortarName:        db "GALLUS CAVE@"
-DragonsDenName:      db "DRAGON'S¯DEN@"
 IcePathName:         db "SLUDGE CAVE@"
 NotApplicableName:   db "N/A@"
 PalletTownName:      db "CARTRIDGE¯TOWN@"
@@ -189,19 +156,15 @@ VermilionCityName:   db "CELESTE¯CITY@"
 CeladonCityName:     db "BRANDEIS¯CITY@"
 SaffronCityName:     db "CASCADE¯CITY@"
 FuchsiaCityName:     db "GAMBOGE¯TOWN@"
-CinnabarIslandName:  db "CINNABAR¯ISLAND@"
 IndigoPlateauName:   db "PASTEL¯PLATEAU@"
 VictoryRoadName:     db "VICTORY¯ROAD@"
 MtMoonName:          db "BROWN CAVE@"
 RockTunnelName:      db "RELIC¯CAVERN@"
-LavRadioTowerName:   db "LAV¯RADIO TOWER@"
 SilphCoName:         db "SILPH CO.@"
 SafariZoneName:      db "SAFARI ZONE@"
-SeafoamIslandsName:  db "SEAFOAM¯ISLANDS@"
 PokemonMansionName:  db "#MON¯MANSION@"
 CeruleanCaveNane:    db "CERULEAN¯CAVE@"
 Route1Name:          db "ROUTE 2@"
-Route2Name:          db "ROUTE 2@"
 Route3Name:          db "ROUTE 4@"
 Route4Name:          db "ROUTE 10@"
 Route5Name:          db "ROUTE 5@"
@@ -209,25 +172,16 @@ Route6Name:          db "ROUTE 3@"
 Route7Name:          db "ROUTE 1@"
 Route8Name:          db "ROUTE 8@"
 Route9Name:          db "ROUTE 7@"
-Route10Name:         db "ROUTE 10@"
 Route11Name:         db "ROUTE 9@"
 Route12Name:         db "ROUTE 14@"
 Route13Name:         db "ROUTE 12@"
 Route14Name:         db "ROUTE 6@"
 Route15Name:         db "ROUTE 11@"
-Route16Name:         db "ROUTE 16@"
-Route17Name:         db "ROUTE 17@"
 Route18Name:         db "ROUTE 13@"
-Route19Name:         db "ROUTE 15@" ;Final Kohto Route
-Route20Name:         db "ROUTE 20@"
-Route21Name:         db "ROUTE 21@"
-Route22Name:         db "ROUTE 22@"
 Route23Name:         db "ROUTE 21@"
-Route24Name:         db "ROUTE 24@"
 Route25Name:         db "JUNCTION¯PARK@"
 Route26Name:         db "ROUTE 20@"
 Route27Name:         db "ROUTE 19@"
-Route28Name:         db "ROUTE 28@"
 Route29Name:         db "ROUTE 1@"
 Route30Name:         db "ROUTE 2@"
 Route31Name:         db "ROUTE 3@"
@@ -246,15 +200,11 @@ Route43Name:         db "ROUTE 15@"
 Route44Name:         db "ROUTE 9@"
 Route45Name:         db "ROUTE 17@"
 Route46Name:         db "ROUTE 18@"
-DarkCaveName:        db "DARK CAVE@"
 IlexForestName:      db "CALLOW¯FOREST@"
-BurnedTowerName:     db "BURNED¯TOWER@"
 FastShipName:        db "FAST SHIP@"
 ViridianForestName:  db "VIRIDIAN¯FOREST@"
 DiglettsCaveName:    db "ACRE¯FOREST@"
-TohjoFallsName:      db "TOHJO FALLS@"
 UndergroundName:     db "UNDERGROUND@"
-BattleTowerName:     db "BATTLE¯TOWER@"
 SpecialMapName:      db "SPECIAL@"
 
 

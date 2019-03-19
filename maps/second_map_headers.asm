@@ -53,9 +53,6 @@
 	connection west, ROUTE_26, Route26, 1, 0, 14, ROUTE_27
 	connection east, CHERRYGROVE_CITY, CherrygroveCity, 2, 0, 9, ROUTE_27
 
-	map_header_2 Route28, ROUTE_28, $2c, WEST
-	connection west, SILVER_CAVE_OUTSIDE, SilverCaveOutside, -3, 6, 12, ROUTE_28
-
 	map_header_2 Route29, ROUTE_29, 5, NORTH | WEST | EAST
 	connection north, ROUTE_46, Route46, 21, 0, 10, ROUTE_29
 	connection west, CHERRYGROVE_CITY, CherrygroveCity, 0, 0, 9, ROUTE_29
@@ -134,16 +131,9 @@
 	connection west, ROUTE_25, Route25, 0, 0, 12, PEWTER_CITY
 	connection east, ROUTE_5, Route5, -1, 0, 12, PEWTER_CITY
 
-	map_header_2 Route2, ROUTE_2, $f, NORTH | SOUTH
-	connection north, PEWTER_CITY, PewterCity, -3, 2, 16, ROUTE_2
-	connection south, VIRIDIAN_CITY, ViridianCity, -3, 2, 16, ROUTE_2
-
 	map_header_2 ViridianCity, VIRIDIAN_CITY, 5, WEST | SOUTH
 	connection south, ROUTE_3, Route3, 11, 0, 9, VIRIDIAN_CITY
 	connection west, ROUTE_6, Route6, 3, 0, 12, VIRIDIAN_CITY
-
-	map_header_2 Route22, ROUTE_22, $2c, EAST
-	connection east, VIRIDIAN_CITY, ViridianCity, -3, 1, 15, ROUTE_22
 
 	map_header_2 Route1, ROUTE_1, 5, WEST | NORTH
 	connection north, ROUTE_6, Route6, 13, -3, 12, ROUTE_1
@@ -152,28 +142,12 @@
 	map_header_2 PalletTown, PALLET_TOWN, 5, EAST
 	connection east, ROUTE_7, Route7, -1, 0, 10, PALLET_TOWN
 
-	map_header_2 Route21, ROUTE_21, $43, NORTH | SOUTH
-	connection north, PALLET_TOWN, PalletTown, 0, 0, 10, ROUTE_21
-	connection south, CINNABAR_ISLAND, CinnabarIsland, 0, 0, 10, ROUTE_21
-
-	map_header_2 CinnabarIsland, CINNABAR_ISLAND, 67, NORTH | EAST
-	connection north, ROUTE_21, Route21, 0, 0, 10, CINNABAR_ISLAND
-	connection east, ROUTE_20, Route20, 0, 0, 9, CINNABAR_ISLAND
-
-	map_header_2 Route20, ROUTE_20, 0, 0
-
-	map_header_2 Route19, ROUTE_19, 5, 0
-
 	map_header_2 FuchsiaCity, FUCHSIA_CITY, 5, NORTH
 	connection north, ROUTE_11, Route11, 9, 0, 10, FUCHSIA_CITY
 
 	map_header_2 Route18, ROUTE_18, 5, NORTH | SOUTH
 	connection north, CERULEAN_CITY, CeruleanCity, -1, 2, 12, ROUTE_18
 	connection south, ROUTE_13, Route13, -2, 18, 12, ROUTE_18
-
-	map_header_2 Route17, ROUTE_17, 0, 0
-
-	map_header_2 Route16, ROUTE_16, 0, 0
 
 	map_header_2 CeladonCity, CELADON_CITY, 5, SOUTH
 	connection south, ROUTE_4, Route4, 11, 0, 9, CELADON_CITY
@@ -230,10 +204,6 @@
 	map_header_2 Route9, ROUTE_9, 5, NORTH | EAST
 	connection north, ROUTE_8, Route8, 2, 0, 10, ROUTE_9
 	connection east, SAFFRON_CITY, SaffronCity, 16, 0, 12, ROUTE_9
-
-	map_header_2 Route24, ROUTE_24, $2c, NORTH | SOUTH
-	connection north, ROUTE_25, Route25, 0, 0, 13, ROUTE_24
-	connection south, CERULEAN_CITY, CeruleanCity, -3, 3, 16, ROUTE_24
 
 	map_header_2 Route25, ROUTE_25, 5, SOUTH | WEST | EAST
 	connection south, ROUTE_14, Route14, 2, 0, 10, ROUTE_25
@@ -343,7 +313,6 @@
 	map_header_2 DragonsDen1F, DRAGONS_DEN_1F, $9, 0
 	map_header_2 DragonsDenB1F, DRAGONS_DEN_B1F, $71, 0
 	map_header_2 DragonShrine, DRAGON_SHRINE, $0, 0
-	map_header_2 TohjoFalls, TOHJO_FALLS, $9, 0
 	map_header_2 OlivinePokeCenter1F, OLIVINE_POKECENTER_1F, $0, 0
 	map_header_2 OlivineGym, OLIVINE_GYM, 0, 0
 	map_header_2 OlivineTimsHouse, OLIVINE_TIMS_HOUSE, $0, 0
@@ -382,8 +351,6 @@
 	map_header_2 BlackthornMart, BLACKTHORN_MART, $0, 0
 	map_header_2 BlackthornPokeCenter1F, BLACKTHORN_POKECENTER_1F, $0, 0
 	map_header_2 MoveDeletersHouse, MOVE_DELETERS_HOUSE, $0, 0
-	map_header_2 CinnabarPokeCenter1F, CINNABAR_POKECENTER_1F, $0, 0
-	map_header_2 CinnabarPokeCenter2FBeta, CINNABAR_POKECENTER_2F_BETA, $0, 0
 	map_header_2 Route19FuchsiaGate, ROUTE_19___FUCHSIA_GATE, $0, 0
 	map_header_2 SeafoamGym, SEAFOAM_GYM, 0, 0
 	map_header_2 CeruleanGymBadgeSpeechHouse, CERULEAN_GYM_BADGE_SPEECH_HOUSE, 0, 0
@@ -395,7 +362,6 @@
 	map_header_2 CeruleanMart, CERULEAN_MART, $0, 0
 	map_header_2 Route10PokeCenter1F, ROUTE_10_POKECENTER_1F, $0, 0
 	map_header_2 Route10PokeCenter2FBeta, ROUTE_10_POKECENTER_2F_BETA, $0, 0
-	map_header_2 PowerPlant, POWER_PLANT, $0, 0
 	map_header_2 BillsHouse, BILLS_HOUSE, $0, 0
 	map_header_2 AzaleaPokeCenter1F, AZALEA_POKECENTER_1F, $0, 0
 	map_header_2 CharcoalKiln, CHARCOAL_KILN, 0, 0

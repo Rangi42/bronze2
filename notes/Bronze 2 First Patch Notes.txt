@@ -13,7 +13,6 @@ BUGS TO FIX:
 -Change rival gender
 -Change professor sprites
 -Change Bronze rival sprite
--Add ramp graphics to Brandies City
 
 Things I can't do:
 -Fix the fly map

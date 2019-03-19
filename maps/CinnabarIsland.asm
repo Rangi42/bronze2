@@ -132,7 +132,7 @@ CinnabarIslandSignText:
 CinnabarIsland_MapEventHeader:: db 0, 0
 
 .Warps: db 1
-	warp_def 11, 11, 1, CINNABAR_POKECENTER_1F
+	warp_def 11, 11, 1, ROUTE_40
 
 .CoordEvents: db 0
 

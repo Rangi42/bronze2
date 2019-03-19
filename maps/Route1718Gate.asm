@@ -59,8 +59,8 @@ Route1718Gate_MapEventHeader:
 
 .Warps:
 	db 4
-	warp_def $4, $0, 1, ROUTE_17
-	warp_def $5, $0, 2, ROUTE_17
+	warp_def $4, $0, 1, ROUTE_40
+	warp_def $5, $0, 2, ROUTE_40
 	warp_def $4, $9, 1, ROUTE_18
 	warp_def $5, $9, 2, ROUTE_18
 

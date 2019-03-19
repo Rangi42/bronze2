@@ -12,7 +12,6 @@ ENDM
 	trigger_def TRADE_CENTER,                           wTradeCenterTrigger
 	trigger_def COLOSSEUM,                              wColosseumTrigger
 	trigger_def TIME_CAPSULE,                           wTimeCapsuleTrigger
-	trigger_def POWER_PLANT,                            wPowerPlantTrigger
 	trigger_def ROUTE12GATES,                           wROUTE12GATESTrigger
 	trigger_def BLACKTHORNGATES,                        wBLACKTHORNGATESTrigger
 	trigger_def TRAINER_HOUSE_B1F,                      wTrainerHouseB1FTrigger

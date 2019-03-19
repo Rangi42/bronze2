@@ -118,7 +118,6 @@ MAP_NONE   EQU 0
 	mapgroup DRAGONS_DEN_1F,                              9,  5 ; 80
 	mapgroup DRAGONS_DEN_B1F,                            18, 20 ; 81
 	mapgroup DRAGON_SHRINE,                               5,  5 ; 82
-	mapgroup TOHJO_FALLS,                                 9, 15 ; 83
 	mapgroup DIGLETTS_CAVE, 23, 19
 	mapgroup MOUNT_MOON, 21, 15
 	mapgroup UNDERGROUND, 14, 4
@@ -160,14 +159,9 @@ MAP_NONE   EQU 0
 
 	newgroup                                                    ;  6
 
-	mapgroup CINNABAR_POKECENTER_1F,                      4,  5 ;  1
-	mapgroup CINNABAR_POKECENTER_2F_BETA,                 4,  8 ;  2
 	mapgroup ROUTE_19___FUCHSIA_GATE,                     4,  5 ;  3
 	mapgroup SEAFOAM_GYM, 5, 5
 	mapgroup ROUTE_19, 8, 20
-	mapgroup ROUTE_20,                                    9, 30 ;  6
-	mapgroup ROUTE_21,                                   18, 10 ;  7
-	mapgroup CINNABAR_ISLAND, 9, 10
 
 	newgroup                                                    ;  7
 
@@ -180,12 +174,10 @@ MAP_NONE   EQU 0
 	mapgroup CERULEAN_MART,                               4,  6 ;  7
 	mapgroup ROUTE_10_POKECENTER_1F,                      4,  5 ;  8
 	mapgroup ROUTE_10_POKECENTER_2F_BETA,                 4,  8 ;  9
-	mapgroup POWER_PLANT,                                 9, 10 ; 10
 	mapgroup BILLS_HOUSE,                                 4,  4 ; 11
 	mapgroup ROUTE_4, 23, 11
 	mapgroup ROUTE_9, 25, 12
 	mapgroup ROUTE_10_NORTH,                              9, 10 ; 14
-	mapgroup ROUTE_24,                                    9, 10 ; 15
 	mapgroup ROUTE_25, 22, 17
 	mapgroup CERULEAN_CITY, 23, 27
 	mapgroup ROUTE25GATES, 11, 13
@@ -365,7 +357,6 @@ MAP_NONE   EQU 0
 
 	newgroup                                                    ; 19
 
-	mapgroup ROUTE_28,                                    9, 20 ;  1
 	mapgroup SILVER_CAVE_OUTSIDE, 14, 20
 	mapgroup SILVER_CAVE_POKECENTER_1F,                   4,  5 ;  3
 	mapgroup ROUTE_28_FAMOUS_SPEECH_HOUSE,                4,  4 ;  4
@@ -382,8 +373,6 @@ MAP_NONE   EQU 0
 	newgroup                                                    ; 21
 
 	mapgroup ROUTE_7, 9, 26
-	mapgroup ROUTE_16,                                    9, 10 ;  2
-	mapgroup ROUTE_17,                                   45, 10 ;  3
 	mapgroup CELADON_CITY, 18, 20
 	mapgroup CELADON_DEPT_STORE_1F, 4, 8
 	mapgroup CELADON_DEPT_STORE_2F,                       4,  8 ;  6
@@ -430,8 +419,6 @@ MAP_NONE   EQU 0
 
 	newgroup                                                    ; 23
 
-	mapgroup ROUTE_2,                                    27, 10 ;  1
-	mapgroup ROUTE_22,                                    9, 20 ;  2
 	mapgroup VIRIDIAN_CITY, 18, 18
 	mapgroup VIRIDIAN_GYM, 9, 5
 	mapgroup VIRIDIAN_NICKNAME_SPEECH_HOUSE,              4,  4 ;  5
@@ -648,7 +635,6 @@ const_value = -1
 	const SPAWN_SAFFRON
 	const SPAWN_CELADON
 	const SPAWN_FUCHSIA
-	const SPAWN_CINNABAR
 	const SPAWN_INDIGO
 
 	const SPAWN_NEW_BARK

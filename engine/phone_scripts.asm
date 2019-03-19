@@ -53,10 +53,8 @@ UnknownScript_0xbcee7: ; 0xbcee7
 	jump UnknownScript_0xbcf37
 
 .violet ; 0xbcf15
-	landmarktotext SPROUT_TOWER, 1
 	jump UnknownScript_0xbcedf
 .azalea ; 0xbcf1b
-	landmarktotext SLOWPOKE_WELL, 1
 	jump UnknownScript_0xbcedf
 .goldenrod ; 0xbcf21
 	landmarktotext RADIO_TOWER, 1
@@ -396,7 +394,6 @@ UnknownScript_0xbd19b:
 	farjump UnknownScript_0xa0908
 
 UnknownScript_0xbd1a2:
-	landmarktotext LIGHTHOUSE, $2
 	farjump UnknownScript_0xa0a32
 
 HueyPhoneScript2:
@@ -417,7 +414,6 @@ UnknownScript_0xbd1cd:
 	setflag ENGINE_HUEY_WEDNESDAY_NIGHT
 
 UnknownScript_0xbd1d0:
-	landmarktotext LIGHTHOUSE, $2
 	setflag ENGINE_HUEY
 	farjump UnknownScript_0xa0376
 
@@ -999,7 +995,6 @@ UnknownScript_0xbd6a6:
 	setflag ENGINE_DUNSPARCE_SWARM
 	pokenamemem DUNSPARCE, $1
 	swarm SWARM_DUNSPARCE, DARK_CAVE_VIOLET_ENTRANCE
-	landmarktotext DARK_CAVE, $2
 	farjump UnknownScript_0xa05de
 
 UnknownScript_0xbd6bd:

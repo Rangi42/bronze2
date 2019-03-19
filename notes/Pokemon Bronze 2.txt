@@ -451,7 +451,7 @@ EVENT_GOLDENROD_CITY_CIVILIANS <Disappears? during rocket attack
 
 CREDITS:
 Map player walks through, stops at signs with credit text
-Rival following player
+Rival/pokemon following player
 Map group with rival sprite in it or monster sprite?
 
 -POKEMON BRONZE 2-

@@ -234,8 +234,6 @@ LoadSpecialMapPalette: ; 494ac
 	ld a, [wTileset]
 	cp TILESET_POKECOM_CENTER
 	jr z, .pokecom_2f
-	cp TILESET_BATTLE_TOWER
-	jr z, .battle_tower
 	cp TILESET_ICE_PATH
 	jr z, .ice_path
 	cp TILESET_HOUSE_1

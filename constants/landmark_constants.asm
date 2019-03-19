@@ -43,17 +43,6 @@
 	const ROUTE_23          ; 59
 	const INDIGO_PLATEAU    ; 5a
 
-	const SPROUT_TOWER      ; 07 ;Above Here
-	const LIGHTHOUSE        ; 1c
-	const RUINS_OF_ALPH     ; 09
-	const SLOWPOKE_WELL     ; 0d
-	const TIN_TOWER         ; 17
-	const BURNED_TOWER      ; 18
-	const BATTLE_TOWER      ; 1d
-	const WHIRL_ISLANDS     ; 1f
-	const DRAGONS_DEN       ; 2a
-	const DARK_CAVE         ; 2c
-
 KANTO_LANDMARK EQU const_value
 
 	const PALLET_TOWN       ; 2f
@@ -84,21 +73,5 @@ KANTO_LANDMARK EQU const_value
 	const ROUTE_12          ; 50
 	const VERMILION_CITY    ; 3d
 	const SILVER_CAVE       ; 2e
-
-	const ROUTE_2           ; 30 ;above
-	const ROUTE_24          ; 38
 	const UNDERGROUND       ; 3b
-	const ROUTE_10          ; 43
-	const POWER_PLANT       ; 44
-	const LAV_RADIO_TOWER   ; 46
-	const ROUTE_16          ; 4e
-	const ROUTE_17          ; 4f
-	const ROUTE_19          ; 52
-	const ROUTE_20          ; 53
-	const SEAFOAM_ISLANDS   ; 54
-	const CINNABAR_ISLAND   ; 55
-	const ROUTE_21          ; 56
-	const ROUTE_22          ; 57
-	const TOHJO_FALLS       ; 5d
-	const ROUTE_28          ; 5e
 	const FAST_SHIP         ; 5f

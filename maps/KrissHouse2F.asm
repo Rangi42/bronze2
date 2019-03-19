@@ -371,7 +371,7 @@ RoomChampionRoomText:
 	done	
 	
 RoomHallofFameText:
-	text "HALL OF FAME"
+	text "ROUTE 21"
 	done
 
 RoomSpecialText:
@@ -420,10 +420,10 @@ KrissHouse2F_MapEventHeader:: db 0, 0
 	warp_def 4, 29, 1, CELADON_CITY
 	warp_def 4, 31, 5, SAFFRON_CITY
 	warp_def 4, 33, 1, FUCHSIA_CITY
-	warp_def 4, 35, 1, CINNABAR_ISLAND
+	warp_def 4, 35, 1, NEW_BARK_TOWN
 	warp_def 0, 17, 1, NEW_BARK_TOWN
 	warp_def 8, 17, 1, LANCES_ROOM
-	warp_def 8, 19, 1, HALL_OF_FAME
+	warp_def 8, 19, 1, ROUTE_23
 	warp_def 8, 21, 1, MAHOGANYEXTRAHOUSE
 	warp_def 8, 23, 1, EARLS_POKEMON_ACADEMY
 	warp_def 8, 25, 1, UNDERGROUND_WAREHOUSE

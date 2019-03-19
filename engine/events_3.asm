@@ -76,13 +76,7 @@ ReturnFromMapSetupScript:: ; b8000
 	ret z
 	cp RADIO_TOWER
 	ret z
-	cp LAV_RADIO_TOWER
-	ret z
-	cp UNDERGROUND
-	ret z
 	cp INDIGO_PLATEAU
-	ret z
-	cp POWER_PLANT
 	ret z
 	ld a, $1
 	and a
@@ -466,7 +460,6 @@ treemon_map: macro
 endm
 	treemon_map ROUTE_26, 4
 	treemon_map ROUTE_27, 4
-	treemon_map ROUTE_28, 0
 	treemon_map ROUTE_29, 3
 	treemon_map ROUTE_30, 3
 	treemon_map ROUTE_31, 3

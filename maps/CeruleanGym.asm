@@ -52,7 +52,6 @@ UnknownScript_0x1883de:
 	clearevent EVENT_ROUTE_25_MISTY_BOYFRIEND
 	dotrigger $0
 	domaptrigger ROUTE_25, $1
-	domaptrigger POWER_PLANT, $0
 	waitsfx
 	special RestartMapMusic
 	pause 15
