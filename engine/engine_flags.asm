@@ -160,30 +160,29 @@ ENDM
 	engine_flag VisitedSpawns, 0     ; your house
 	engine_flag VisitedSpawns, 1     ; viridian pokecenter
 	engine_flag VisitedSpawns, 2     ; pallet
+	engine_flag VisitedSpawns + 1, 0 ; lavender
 	engine_flag VisitedSpawns, 3     ; viridian
 	engine_flag VisitedSpawns, 4     ; pewter
-	engine_flag VisitedSpawns, 5     ; cerulean ; $38
 	engine_flag VisitedSpawns, 6     ; rock tunnel
-	engine_flag VisitedSpawns, 7     ; vermilion
-	engine_flag VisitedSpawns + 1, 0 ; lavender
 	engine_flag VisitedSpawns + 1, 1 ; saffron
-	engine_flag VisitedSpawns + 1, 2 ; celadon
 	engine_flag VisitedSpawns + 1, 3 ; fuchsia
-	engine_flag VisitedSpawns + 1, 4 ; cinnabar
-	engine_flag VisitedSpawns + 1, 5 ; indigo plateau ; $40
+	engine_flag VisitedSpawns + 1, 2 ; celadon
+	engine_flag VisitedSpawns, 5     ; cerulean ; $38
+	engine_flag VisitedSpawns, 7     ; vermilion
+	engine_flag VisitedSpawns + 3, 2 ; silver cave
 	engine_flag VisitedSpawns + 1, 6 ; new bark
 	engine_flag VisitedSpawns + 1, 7 ; cherrygrove
+		                             ; union cave
 	engine_flag VisitedSpawns + 2, 0 ; violet
-	                                 ; union cave
-	engine_flag VisitedSpawns + 2, 2 ; azalea
-	engine_flag VisitedSpawns + 2, 3 ; cianwood
-	engine_flag VisitedSpawns + 2, 4 ; goldenrod
-	engine_flag VisitedSpawns + 2, 5 ; olivine
 	engine_flag VisitedSpawns + 2, 6 ; ecruteak  ; $48
 	engine_flag VisitedSpawns + 2, 7 ; mahogany
+	engine_flag VisitedSpawns + 2, 4 ; goldenrod
+	engine_flag VisitedSpawns + 2, 5 ; olivine
+	engine_flag VisitedSpawns + 2, 2 ; azalea
 	engine_flag VisitedSpawns + 3, 0 ; lake of rage
+	engine_flag VisitedSpawns + 2, 3 ; cianwood
 	engine_flag VisitedSpawns + 3, 1 ; blackthorn
-	engine_flag VisitedSpawns + 3, 2 ; silver cave
+	engine_flag VisitedSpawns + 1, 5 ; indigo plateau ; $40
 	                                 ; fast ship
 	engine_flag VisitedSpawns + 3, 4 ; unused
 

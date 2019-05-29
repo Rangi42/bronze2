@@ -14,8 +14,11 @@ BUGS TO FIX:
 -Change professor sprites
 -Change Bronze rival sprite
 
+My rattata loves to CUT bushes!
+
 Things I can't do:
 -Fix the fly map
+-Cannot fly to Figbranch Town (Azalea Town)
 -Add wild water pokemon to Charcoal Town (Cerulean City)
 -Add wild pokemon to Mt. Moon Square
 -Add wild water pokemon to Victory Road
