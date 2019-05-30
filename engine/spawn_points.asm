@@ -6,36 +6,33 @@ spawn: MACRO
 	map \1
 	db \2, \3
 ENDM
+;Kohtoyy
+	spawn KRISS_HOUSE_2F,              3, 3
 
-	spawn KRISS_HOUSE_2F,              3,  3
-	spawn VIRIDIAN_POKECENTER_1F,      5,  3
-
-	spawn PALLET_TOWN,                 7,  4
-	spawn VIRIDIAN_CITY,              7, 12
+	spawn PALLET_TOWN,                 7, 4
+	spawn LAVENDER_TOWN,              19, 4
+	spawn VIRIDIAN_CITY,               7, 12
 	spawn PEWTER_CITY,                17, 6
-	spawn CERULEAN_CITY,              31, 14
-	spawn ROUTE_10_NORTH,             11,  2
-	spawn VERMILION_CITY,              9,  20
-	spawn LAVENDER_TOWN,               19,  4
-	spawn SAFFRON_CITY,                21, 14
-	spawn CELADON_CITY,               21, 26
+	spawn SAFFRON_CITY,               21, 14
 	spawn FUCHSIA_CITY,               17, 10
-	spawn ROUTE_23,                    8,  6
-
-	spawn NEW_BARK_TOWN,              13,  4
-	spawn CHERRYGROVE_CITY,           21,  4
+	spawn CELADON_CITY,               21, 26	
+	spawn CERULEAN_CITY,              31, 14
+	spawn VERMILION_CITY,              9, 20
+	spawn SILVER_CAVE_OUTSIDE,        23, 12
+;Janto
+	spawn NEW_BARK_TOWN,              13, 4
+	spawn CHERRYGROVE_CITY,           21, 4
 	spawn VIOLET_CITY,                27, 26
-	spawn ROUTE_32,                   11, 74
-	spawn AZALEA_TOWN,                13, 24
-	spawn CIANWOOD_CITY,              19, 28,
-	spawn GOLDENROD_CITY,             17, 14
-	spawn OLIVINE_CITY,               31, 18
 	spawn ECRUTEAK_CITY,              27, 28
 	spawn MAHOGANY_TOWN,              17, 8
-	spawn LAKE_OF_RAGE,               2, 26
+	spawn GOLDENROD_CITY,             17, 14
+	spawn OLIVINE_CITY,               31, 18
+	spawn AZALEA_TOWN,                13, 24
+	spawn LAKE_OF_RAGE,                2, 26
+	spawn CIANWOOD_CITY,              19, 28
 	spawn BLACKTHORN_CITY,            15, 30
-	spawn SILVER_CAVE_OUTSIDE,        23, 12
-	spawn FAST_SHIP_CABINS_SW_SSW_NW,  6,  2
+	spawn ROUTE_23,                    9, 6	;Outside Indigo Plateau
+	spawn FAST_SHIP_CABINS_SW_SSW_NW,  6, 2
 	spawn N_A,                        -1, -1
 
 

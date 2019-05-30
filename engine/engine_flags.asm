@@ -158,12 +158,10 @@ ENDM
 
 	; fly
 	engine_flag VisitedSpawns, 0     ; your house
-	engine_flag VisitedSpawns, 1     ; viridian pokecenter
 	engine_flag VisitedSpawns, 2     ; pallet
 	engine_flag VisitedSpawns + 1, 0 ; lavender
 	engine_flag VisitedSpawns, 3     ; viridian
 	engine_flag VisitedSpawns, 4     ; pewter
-	engine_flag VisitedSpawns, 6     ; rock tunnel
 	engine_flag VisitedSpawns + 1, 1 ; saffron
 	engine_flag VisitedSpawns + 1, 3 ; fuchsia
 	engine_flag VisitedSpawns + 1, 2 ; celadon

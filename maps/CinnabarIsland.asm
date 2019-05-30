@@ -12,7 +12,6 @@ CinnabarIsland_MapScriptHeader:
 	dbw MAPCALLBACK_NEWMAP, .FlyPoint
 
 .FlyPoint:
-	setflag ENGINE_FLYPOINT_CINNABAR
 	return
 
 CinnabarIslandBlue:
