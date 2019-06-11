@@ -57,7 +57,6 @@ KANTO_LANDMARK EQU const_value
 	const PEWTER_CITY       ; 33
 	const ROUTE_25          ; 39
 	const ROUTE_14          ; 4c
-	const ROCK_TUNNEL       ; 42
 	const SAFFRON_CITY      ; 48
 	const ROUTE_9           ; 41
 	const ROUTE_8           ; 40

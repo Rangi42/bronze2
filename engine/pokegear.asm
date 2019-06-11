@@ -2358,7 +2358,6 @@ KANTO_FLYPOINT EQU const_value
 	flypoint PEWTER,      PEWTER_CITY
 	flypoint CERULEAN,    CERULEAN_CITY
 	flypoint VERMILION,   VERMILION_CITY
-	flypoint ROCK_TUNNEL, ROCK_TUNNEL
 	flypoint LAVENDER,    LAVENDER_TOWN
 	flypoint CELADON,     CELADON_CITY
 	flypoint SAFFRON,     SAFFRON_CITY
@@ -2424,54 +2423,54 @@ FlyMap: ; 91c90
 ; enters Kanto, fly access is restricted until Indigo Plateau is
 
 ; visited and its flypoint enabled
-	push af
-	ld c, SPAWN_INDIGO
-	call HasVisitedSpawn
-	and a
-	jr z, .NoKanto
+    push af
+    ld c, SPAWN_INDIGO
+    call HasVisitedSpawn
+    and a
+    jr z, .NoKanto
 ; Kanto's map is only loaded if we've visited Indigo Plateau
 
 ; Flypoints begin at Pallet Town...
-	ld a, FLY_PALLET
-	ld [StartFlypoint], a
+    ld a, FLY_PALLET
+    ld [StartFlypoint], a
 ; ...and end at Indigo Plateau
-	ld a, FLY_INDIGO
-	ld [EndFlypoint], a
+    ld a, FLY_MT_SILVER
+    ld [EndFlypoint], a
 ; Because Indigo Plateau is the first flypoint the player
 
 ; visits, it's made the default flypoint
-	ld [wd002], a
+    ld [wd002], a
 ; Fill out the map
-	call FillKantoMap
-	call .MapHud
-	pop af
-	call TownMapPlayerIcon
-	ret
+    call FillKantoMap
+    call .MapHud
+    pop af
+    call TownMapPlayerIcon
+    ret
 
 .NoKanto:
 ; If Indigo Plateau hasn't been visited, we use Johto's map instead
 
 ; Start from New Bark Town
-	ld a, FLY_NEW_BARK
-	ld [wd002], a
+    ld a, FLY_NEW_BARK
+    ld [wd002], a
 ; Flypoints begin at New Bark Town...
-	ld [StartFlypoint], a
+    ld [StartFlypoint], a
 ; ..and end at Silver Cave
-	ld a, FLY_MT_SILVER
-	ld [EndFlypoint], a
-	call FillJohtoMap
-	pop af
+    ld a, FLY_MT_SILVER
+    ld [EndFlypoint], a
+    call FillJohtoMap
+    pop af
 .MapHud:
-	call TownMapBubble
-	call TownMapPals
-	hlbgcoord 0, 0 ; BG Map 0
-	call TownMapBGUpdate
-	call TownMapMon
-	ld a, c
-	ld [wd003], a
-	ld a, b
-	ld [wd004], a
-	ret
+    call TownMapBubble
+    call TownMapPals
+    hlbgcoord 0, 0 ; BG Map 0
+    call TownMapBGUpdate
+    call TownMapMon
+    ld a, c
+    ld [wd003], a
+    ld a, b
+    ld [wd004], a
+    ret
 
 ; 91d11
 
