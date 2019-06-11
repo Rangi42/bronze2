@@ -2424,7 +2424,7 @@ FlyMap: ; 91c90
 
 ; visited and its flypoint enabled
     push af
-    ld c, SPAWN_INDIGO
+    ld c, SPAWN_CERULEAN 
     call HasVisitedSpawn
     and a
     jr z, .NoKanto
