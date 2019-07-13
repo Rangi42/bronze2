@@ -1178,7 +1178,7 @@ ReturnToBattle_UseBall: ; edfa (3:6dfa)
 	ret
 
 TownMap: ; ee01
-	callba PokegearMap
+	callba _Squirtbottle ;Temporary
 	ret
 ; ee08
 

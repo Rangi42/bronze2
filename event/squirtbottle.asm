@@ -1,3 +1,5 @@
+;This script is now for the teleporter.
+
 _Squirtbottle: ; 50730
 	ld hl, UnknownScript_0x5073c
 	call QueueScript

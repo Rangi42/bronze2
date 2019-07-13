@@ -194,6 +194,7 @@ RoomSignpostSPECIALScript:
 	setflag ENGINE_POKEDEX
 	setevent EVENT_SWITCH_9
 	setevent EVENT_SWITCH_10
+	giveitem TELEPORTER
 	giveitem BICYCLE
 	giveitem RARE_CANDY, 99
 	giveitem MASTER_BALL, 99

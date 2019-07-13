@@ -310,7 +310,8 @@ PokeBallDesc:
 	next "ing #MON.@"
 
 TeruSama1Desc:
-	db   "?@"
+	db   "Warp to previously"
+	next "visited towns.@"
 
 BicycleDesc:
 	db   "A collapsible bike"

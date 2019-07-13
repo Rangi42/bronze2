@@ -5,7 +5,7 @@
 	const BRIGHTPOWDER ; $03
 	const GREAT_BALL   ; $04
 	const POKE_BALL    ; $05
-	const TOWN_MAP     ; $06
+	const TELEPORTER   ; $06
 	const BICYCLE      ; $07
 	const MOON_STONE   ; $08
 	const ANTIDOTE     ; $09

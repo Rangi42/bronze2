@@ -1903,3 +1903,11 @@ CantCutScript: ; 0xd1cd
 UnknownText_0xd1d0: ; 0xd1d0
 	text_jump UnknownText_0x1c0a05
 	db "@"
+
+TestTestTest:
+	text "Full Selection of"
+	line "#MON Goods!"
+
+	para "ROSEGLEN CITY"
+	line "DEPT.STORE"
+	done

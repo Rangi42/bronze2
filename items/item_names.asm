@@ -3,7 +3,7 @@
 	db "BRIGHTPOWDER@"
 	db "GREAT BALL@"
 	db "# BALL@"
-	db "TERU-SAMA@"
+	db "TELEPORTER@"
 	db "BICYCLE@"
 	db "MOON STONE@"
 	db "ANTIDOTE@"
