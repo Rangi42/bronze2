@@ -32,7 +32,6 @@ MortyScript_0x99d58:
 	iftrue EcruFightDone
 	checkevent EVENT_BOULDER_IN_BLACKTHORN_GYM_1
 	iftrue GymLate
-GymLate2:
 	writetext UnknownText_0x99e65
 	waitbutton
 	closetext
@@ -80,7 +79,41 @@ UnknownScript_0x99db5:
 GymLate:
 	writetext GymLateText
 	buttonsound
-	jump GymLate2
+	writetext UnknownText_0x99e65
+	waitbutton
+	closetext
+	winlosstext UnknownText_0x9a00a, 0
+	loadtrainer MORTY, 2
+	startbattle
+	reloadmapafterbattle
+	setevent EVENT_BEAT_MORTY
+	opentext
+	writetext UnknownText_0x9a043
+	playsound SFX_GET_BADGE
+	waitsfx
+	setflag ENGINE_FOGBADGE
+	setevent EVENT_SWITCH_8
+	clearevent EVENT_SWITCH_7
+	checkcode VAR_BADGES
+;	scall EcruteakGymTriggerRockets
+;	domaptrigger ECRUTEAK_HOUSE, $1
+;	setevent EVENT_RANG_CLEAR_BELL_1
+;	setevent EVENT_RANG_CLEAR_BELL_2
+	checkevent EVENT_GOT_TM30_SHADOW_BALL
+	iftrue UnknownScript_0x99db1
+	setevent EVENT_BEAT_SAGE_JEFFREY
+	setevent EVENT_BEAT_SAGE_PING
+	setevent EVENT_BEAT_MEDIUM_MARTHA
+	setevent EVENT_BEAT_MEDIUM_GRACE
+	writetext UnknownText_0x9a059
+	buttonsound
+	verbosegiveitem SHARP_BEAK
+	iffalse UnknownScript_0x99db5
+	setevent EVENT_GOT_TM30_SHADOW_BALL
+	writetext UnknownText_0x9a0ec
+	waitbutton
+	closetext
+	end
 	
 EcruteakGymTriggerRockets:
 ;	if_equal 7, .RadioTowerRockets

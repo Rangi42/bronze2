@@ -203,7 +203,7 @@ Route9SignText:
 Route9_MapEventHeader:: db 0, 0
 
 .Warps: db 4
-	warp_def 43, 13, 1, ROCK_TUNNEL_1F
+	warp_def 43, 13, 1, ROUTE_7_SAFFRON_GATE
 	warp_def 40, 21, 1, ROUTE_7_SAFFRON_GATE
 	warp_def 41, 21, 2, ROUTE_7_SAFFRON_GATE
 	warp_def 3, 15, 11, ROUTE8GATES

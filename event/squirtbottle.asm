@@ -1,53 +1,205 @@
 ;This script is now for the teleporter.
 
 _Squirtbottle: ; 50730
-	ld hl, UnknownScript_0x5073c
+	ld hl, .SelectRegionBoxScript
 	call QueueScript
 	ld a, $1
 	ld [wItemEffectSucceeded], a
 	ret
-; 5073c
+	
+.SelectRegionBoxScript
+	checkflag ENGINE_FLYPOINT_CERULEAN
+	iffalse .JantoTeleportMenu
+	refreshscreen $0
+	loadmenudata .MenuDataHeader3
+	verticalmenu
+	closewindow
+	if_equal $1, .JantoTeleportMenu
+	if_equal $2, .end
+	closetext
+	end
+	
+.JantoTeleportMenu
+	refreshscreen $0
+	loadmenudata .MenuDataHeader
+	verticalmenu
+	closewindow
+	if_equal $1, .NewBarkTeleport
+	if_equal $2, .SilverleafTeleport
+	if_equal $3, .end
+	if_equal $4, .end
+	if_equal $5, .end
+	if_equal $6, .end
+	if_equal $7, .end
+	if_equal $8, .scriptmenutest2
+	closetext
+	end
 
-UnknownScript_0x5073c: ; 0x5073c
-	reloadmappart
-	special UpdateTimePals
-	callasm Function50753
-	iffalse UnknownScript_0x5074b
-	farjump WateredWeirdTreeScript
-; 0x5074b
+.NewBarkTeleport
+	opentext
+	writetext ItemFinderFinishedText
+	closetext
+	special FadeOutPalettes
+	warpfacing DOWN, NEW_BARK_TOWN, 13, 4
+	end
+	
+.SilverleafTeleport
+	checkflag ENGINE_FLYPOINT_CHERRYGROVE
+	iftrue .TeleportNow
+	opentext
+	writetext HaventVisitedTeleport
+	waitbutton
+	closetext
+	end
 
-UnknownScript_0x5074b: ; 0x5074b
-	jumptext UnknownText_0x5074e
-; 0x5074e
+.TeleportNow
+	opentext
+	writetext ItemFinderFinishedText
+	closetext
+	special FadeOutPalettes
+	warpfacing DOWN, CHERRYGROVE_CITY, 21, 4
+	end
 
-UnknownText_0x5074e: ; 0x5074e
-	; sprinkled water. But nothing happened…
-	text_jump UnknownText_0x1c0b3b
-	db "@"
-; 0x50753
+.scriptmenutest2
+	refreshscreen $0
+	loadmenudata .MenuDataHeader2
+	verticalmenu
+	closewindow
+	if_equal $1, .JantoTeleportMenu
+	if_equal $2, .end
+	if_equal $3, .RedstoneTeleportMenu
+	if_equal $4, .end
+	if_equal $5, .HardrootTeleportMenu
+	if_equal $6, .HallofFameTeleportMenu
+	if_equal $7, .end
+	closetext
+	end
 
-Function50753: ; 50753
-	ld a, [MapGroup]
-	cp GROUP_ROUTE_36
-	jr nz, .asm_50774
+.RedstoneTeleportMenu
+	checkflag ENGINE_FLYPOINT_LAKE_OF_RAGE
+	iftrue .TeleportRedNow
+	opentext
+	writetext HaventVisitedTeleport
+	waitbutton
+	closetext
+	end
 
-	ld a, [MapNumber]
-	cp MAP_ROUTE_36
-	jr nz, .asm_50774
+.TeleportRedNow
+	opentext
+	writetext ItemFinderFinishedText
+	closetext
+	special FadeOutPalettes
+	warpfacing DOWN, LAKE_OF_RAGE, 2, 26
+	end
 
-	callba GetFacingObject
-	jr c, .asm_50774
+.HardrootTeleportMenu
+	checkflag ENGINE_FLYPOINT_BLACKTHORN
+	iftrue .TeleportHardNow
+	opentext
+	writetext HaventVisitedTeleport
+	waitbutton
+	closetext
+	end
 
-	ld a, d
-	cp $17
-	jr nz, .asm_50774
+.TeleportHardNow
+	opentext
+	writetext ItemFinderFinishedText
+	closetext
+	special FadeOutPalettes
+	warpfacing DOWN, BLACKTHORN_CITY, 15, 30
+	end
+	
+.HallofFameTeleportMenu
+	checkflag ENGINE_FLYPOINT_BLACKTHORN
+	iftrue .TeleportHallNow
+	opentext
+	writetext HaventVisitedTeleport
+	waitbutton
+	closetext
+	end
 
-	ld a, $1
-	ld [ScriptVar], a
-	ret
+.TeleportHallNow
+	opentext
+	writetext ItemFinderFinishedText
+	closetext
+	special FadeOutPalettes
+	warpfacing DOWN, ROUTE_23, 9, 6 
+	end
+	
+.NextRegionTeleport
+	checkflag ENGINE_FLYPOINT_CERULEAN
+	iftrue .end
+	opentext
+	writetext HaventVisitedTeleport
+	waitbutton
+	closetext
+	end
 
-.asm_50774
-	xor a
-	ld [ScriptVar], a
-	ret
-; 50779
+.end
+	closetext
+	end
+
+
+.MenuDataHeader3: ; 0x48dfc
+	db $40 ; flags
+	db 05, 06 ; start coords
+	db 11, 14 ; end coords
+	dw .MenuData23
+	db 1 ; default option
+; 0x48e04
+
+.MenuData23: ; 0x48e04
+	db $80 ; flags
+	db 2 ; items
+	db "JANTO@"
+	db "KOHTO@"
+	
+.MenuDataHeader: ; 0x48dfc
+	db $40 ; flags
+	db 00, 03 ; start coords
+	db 17, 17 ; end coords
+	dw .MenuData2
+	db 1 ; default option
+; 0x48e04
+
+.MenuData2: ; 0x48e04
+	db $80 ; flags
+	db 8 ; items
+	db "OLD OAK@"
+	db "SILVERLEAF@"
+	db "WILLOWBRUSH@"
+	db "FERNWORTH@"
+	db "WILDBARK@"
+	db "ROSEGLEN@"
+	db "NEWPORT@"
+	db "More@"
+	
+; 2nd MENU
+	
+.MenuDataHeader2: ; 0x48dfc
+	db $40 ; flags
+	db 00, 03 ; start coords
+	db 15, 17 ; end coords
+	dw .MenuData22
+	db 1 ; default option
+; 0x48e04
+
+.MenuData22: ; 0x48e04
+	db $80 ; flags
+	db 7 ; items
+	db "Back@"
+	db "FIGBRANCH@"
+	db "MT.REDSTONE@"
+	db "MAUVEWOOD@"
+	db "HARDROOT@"
+	db "LEAGUE@"
+	db "Exit@"
+	
+ItemFinderFinishedText:
+	text "Teleporting..."
+	done
+
+HaventVisitedTeleport:
+	text "You haven't visited"
+	line "here yet."
+	done

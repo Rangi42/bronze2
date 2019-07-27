@@ -158,6 +158,21 @@ MortyGroup:
 	db $ff ; end
 
 ; ================
+
+	; MORTY (2)
+	db "SCARLET@" ;MORTY
+	db 1 ; moves
+
+	; party
+	db 1, BULBASAUR
+		db CUT
+		db 0
+		db 0
+		db 0
+
+	db $ff ; end
+
+; ================
 ; ================================
 
 

@@ -234,4 +234,10 @@
 	db 25, CORSOLA
 	db 30, TENTACRUEL
 	
+	map VICTORY_ROAD
+	db 2 percent ; encounter rate
+	db 35, POLIWHIRL
+	db 32, POLIWHIRL
+	db 34, POLIWAG
+	
 	db -1 ; end

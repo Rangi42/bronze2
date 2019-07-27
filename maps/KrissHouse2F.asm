@@ -461,7 +461,7 @@ KrissHouse2F_MapEventHeader:: db 0, 0
 	signpost 1, 5, SIGNPOST_READ, KrissHouseBookshelf
 	signpost 0, 6, SIGNPOST_IFSET, KrissHousePoster
 	signpost 6, 2, SIGNPOST_READ, WarpToWarpRoom
-	signpost 0, 17, SIGNPOST_READ, RoomSignpostSPECIALScript
+	signpost  0, 17, SIGNPOST_READ, RoomSignpostSPECIALScript
 	signpost 0, 23, SIGNPOST_READ, RoomSignpostSPECIAL2Script
 	signpost 8, 19, SIGNPOST_READ, RoomSignpostSPECIAL3Script
 	signpost 0, 16, SIGNPOST_READ, RoomNewBarkTown

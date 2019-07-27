@@ -85,12 +85,9 @@ PokemaniacMillerBeatenText:
 	done
 
 UnknownText_0x7debd:
-	text "Have you managed"
-	line "to get any ZUBAT?"
-	
-	para "I've got a whole"
-	line "bunch in my PC"
-	cont "BOX!"
+	text "I should catch a"
+	line "RATTATA to cut"
+	cont "down my enemies."
 	done
 
 SupernerdMarkusSeenText:

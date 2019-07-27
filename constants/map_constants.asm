@@ -121,8 +121,6 @@ MAP_NONE   EQU 0
 	mapgroup DIGLETTS_CAVE, 23, 19
 	mapgroup MOUNT_MOON, 21, 15
 	mapgroup UNDERGROUND, 14, 4
-	mapgroup ROCK_TUNNEL_1F,                             18, 15 ; 87
-	mapgroup ROCK_TUNNEL_B1F,                            18, 15 ; 88
 	mapgroup SAFARI_ZONE_FUCHSIA_GATE_BETA,               4,  5 ; 89
 	mapgroup SAFARI_ZONE_BETA, 4, 9
 	mapgroup VICTORY_ROAD, 34, 15
@@ -623,7 +621,6 @@ const_value = -1
 	const SPAWN_N_A
 
 	const SPAWN_HOME
-	const SPAWN_DEBUG
 
 	const SPAWN_PALLET
 	const SPAWN_LAVENDER
@@ -635,7 +632,7 @@ const_value = -1
 	const SPAWN_CERULEAN
 	const SPAWN_VERMILION
 	const SPAWN_MT_SILVER
-
+	
 	const SPAWN_NEW_BARK
 	const SPAWN_CHERRYGROVE
 	const SPAWN_VIOLET
@@ -648,7 +645,6 @@ const_value = -1
 	const SPAWN_CIANWOOD
 	const SPAWN_BLACKTHORN
 	const SPAWN_INDIGO
-	const SPAWN_FAST_SHIP
 NUM_SPAWNS EQU const_value
 
 	const_def

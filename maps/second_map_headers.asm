@@ -331,8 +331,6 @@
 	map_header_2 DiglettsCave, DIGLETTS_CAVE, 0, 0
 	map_header_2 MountMoon, MOUNT_MOON, 9, 0
 	map_header_2 Underground, UNDERGROUND, 0, 0
-	map_header_2 RockTunnel1F, ROCK_TUNNEL_1F, $9, 0
-	map_header_2 RockTunnelB1F, ROCK_TUNNEL_B1F, $9, 0
 	map_header_2 SafariZoneFuchsiaGateBeta, SAFARI_ZONE_FUCHSIA_GATE_BETA, $0, 0
 	map_header_2 SafariZoneBeta, SAFARI_ZONE_BETA, 0, 0
 	map_header_2 VictoryRoad, VICTORY_ROAD, 29, 0

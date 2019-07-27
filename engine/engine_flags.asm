@@ -157,32 +157,31 @@ ENDM
 	engine_flag UnlockedUnowns, 7 ; 8
 
 	; fly
-	engine_flag VisitedSpawns, 0     ; your house
-	engine_flag VisitedSpawns, 2     ; pallet
-	engine_flag VisitedSpawns + 1, 0 ; lavender
-	engine_flag VisitedSpawns, 3     ; viridian
-	engine_flag VisitedSpawns, 4     ; pewter
-	engine_flag VisitedSpawns + 1, 1 ; saffron
-	engine_flag VisitedSpawns + 1, 3 ; fuchsia
-	engine_flag VisitedSpawns + 1, 2 ; celadon
-	engine_flag VisitedSpawns, 5     ; cerulean ; $38
-	engine_flag VisitedSpawns, 7     ; vermilion
-	engine_flag VisitedSpawns + 3, 2 ; silver cave
-	engine_flag VisitedSpawns + 1, 6 ; new bark
-	engine_flag VisitedSpawns + 1, 7 ; cherrygrove
-		                             ; union cave
-	engine_flag VisitedSpawns + 2, 0 ; violet
-	engine_flag VisitedSpawns + 2, 6 ; ecruteak  ; $48
-	engine_flag VisitedSpawns + 2, 7 ; mahogany
-	engine_flag VisitedSpawns + 2, 4 ; goldenrod
-	engine_flag VisitedSpawns + 2, 5 ; olivine
-	engine_flag VisitedSpawns + 2, 2 ; azalea
-	engine_flag VisitedSpawns + 3, 0 ; lake of rage
-	engine_flag VisitedSpawns + 2, 3 ; cianwood
-	engine_flag VisitedSpawns + 3, 1 ; blackthorn
-	engine_flag VisitedSpawns + 1, 5 ; indigo plateau ; $40
-	                                 ; fast ship
-	engine_flag VisitedSpawns + 3, 4 ; unused
+	engine_flag VisitedSpawns, 0
+	engine_flag VisitedSpawns, 1
+	engine_flag VisitedSpawns, 2
+	engine_flag VisitedSpawns, 3
+	engine_flag VisitedSpawns, 4
+	engine_flag VisitedSpawns, 5
+	engine_flag VisitedSpawns, 6
+	engine_flag VisitedSpawns, 7
+	engine_flag VisitedSpawns + 1, 0
+	engine_flag VisitedSpawns + 1, 1
+	engine_flag VisitedSpawns + 1, 2
+	engine_flag VisitedSpawns + 1, 3
+	engine_flag VisitedSpawns + 1, 4
+	engine_flag VisitedSpawns + 1, 5
+	engine_flag VisitedSpawns + 1, 6
+	engine_flag VisitedSpawns + 1, 7
+	engine_flag VisitedSpawns + 2, 0
+	engine_flag VisitedSpawns + 2, 1
+	engine_flag VisitedSpawns + 2, 2
+	engine_flag VisitedSpawns + 2, 3
+	engine_flag VisitedSpawns + 2, 4
+	engine_flag VisitedSpawns + 2, 5
+	engine_flag VisitedSpawns + 2, 6
+	engine_flag VisitedSpawns + 2, 7
+	engine_flag VisitedSpawns + 3, 0
 
 	engine_flag wLuckyNumberShowFlag, 0 ; lucky number show
 	engine_flag StatusFlags2, 3 ; ????

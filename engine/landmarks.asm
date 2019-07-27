@@ -109,7 +109,6 @@ ENDM
 	landmark $64, $64, PewterCityName
 	landmark $4C, $64, Route25Name
 	landmark $4C, $74, Route14Name ;ROUTE 6
-	landmark $54, $74, RockTunnelName ;RELIC CAVERN
 	landmark $44, $84, SaffronCityName
 	landmark $3C, $74, Route9Name ;ROUTE 7
 	landmark $3C, $64, Route8Name ;ROUTE 8

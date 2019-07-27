@@ -270,87 +270,6 @@
 	db 12, CLEFAIRY
 	db 12, CLEFAIRY
 
-	map ROCK_TUNNEL_1F
-	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
-	; morn
-	db 10, CUBONE
-	db 11, GEODUDE
-	db 12, MACHOP
-	db 12, ZUBAT
-	db 15, MACHOKE
-	db 12, MAROWAK
-	db 12, MAROWAK
-	; day
-	db 10, CUBONE
-	db 11, GEODUDE
-	db 12, MACHOP
-	db 12, ZUBAT
-	db 15, MACHOKE
-	db 12, MAROWAK
-	db 12, MAROWAK
-	; nite
-	db 12, ZUBAT
-	db 11, GEODUDE
-	db 12, GEODUDE
-	db 17, HAUNTER
-	db 15, ZUBAT
-	db 15, ZUBAT
-	db 15, ZUBAT
-
-	map ROCK_TUNNEL_B1F
-	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
-	; morn
-	db 12, CUBONE
-	db 14, GEODUDE
-	db 16, ONIX
-	db 12, ZUBAT
-	db 15, MAROWAK
-	db 15, KANGASKHAN
-	db 15, KANGASKHAN
-	; day
-	db 12, CUBONE
-	db 14, GEODUDE
-	db 16, ONIX
-	db 12, ZUBAT
-	db 15, MAROWAK
-	db 15, KANGASKHAN
-	db 15, KANGASKHAN
-	; nite
-	db 12, ZUBAT
-	db 14, GEODUDE
-	db 16, ONIX
-	db 15, ZUBAT
-	db 15, HAUNTER
-	db 15, GOLBAT
-	db 15, GOLBAT
-
-	map VICTORY_ROAD
-	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
-	; morn
-	db 34, GRAVELER
-	db 32, RHYHORN
-	db 33, ONIX
-	db 34, GOLBAT
-	db 35, SANDSLASH
-	db 35, RHYDON
-	db 35, RHYDON
-	; day
-	db 34, GRAVELER
-	db 32, RHYHORN
-	db 33, ONIX
-	db 34, GOLBAT
-	db 35, SANDSLASH
-	db 35, RHYDON
-	db 35, RHYDON
-	; nite
-	db 34, GOLBAT
-	db 34, GRAVELER
-	db 32, ONIX
-	db 36, GRAVELER
-	db 38, GRAVELER
-	db 40, GRAVELER
-	db 40, GRAVELER
-
 	map ROUTE_1
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -755,5 +674,32 @@
 	db 13, BELLSPROUT
 	db 14, NOCTOWL
 	db 14, NOCTOWL
+	
+	map MOUNT_MOON_SQUARE
+	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
+	; morn
+	db 6, ZUBAT
+	db 8, GEODUDE
+	db 8, SANDSHREW
+	db 12, PARAS
+	db 10, GEODUDE
+	db 8, CLEFAIRY
+	db 8, CLEFAIRY
+	; day
+	db 6, ZUBAT
+	db 8, GEODUDE
+	db 8, SANDSHREW
+	db 12, PARAS
+	db 10, GEODUDE
+	db 8, CLEFAIRY
+	db 8, CLEFAIRY
+	; nite
+	db 6, ZUBAT
+	db 8, GEODUDE
+	db 8, CLEFAIRY
+	db 12, PARAS
+	db 10, GEODUDE
+	db 12, CLEFAIRY
+	db 12, CLEFAIRY
 
 	db -1 ; end

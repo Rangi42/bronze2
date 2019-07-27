@@ -23,6 +23,8 @@ INCBIN "tilesets/08_collision.bin"
 ; 0xb5ee0
 
 Tileset02GFX: ; 0xb5ee0
+INCBIN "gfx/tilesets/02.2bpp.lz"
+
 Tileset04GFX: ; 0xb5ee0
 INCBIN "gfx/tilesets/04.2bpp.lz"
 ; 0xb6ae8

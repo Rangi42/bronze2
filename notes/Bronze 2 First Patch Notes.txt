@@ -14,11 +14,22 @@ BUGS TO FIX:
 -Change professor sprites
 -Change Bronze rival sprite
 
-My rattata loves to CUT bushes!
+-pokecenter willowbrush rumour to rumor
+-first rockets to route instead
+-remove stars from top floor floor of resturaunt
+-Remove push animation from gym kick out
+-National park sign near date needs removing or changing
+-sludge route favourite
+-add PP items to elite four
+-acre forest "In" instead of "Is"? Quizmaster
+-Gentleman "He's keeps hanging around" to He keeps.
+-Route 11 Kohto "Entertaining" spelled wrong
+"My rattata loves to CUT bushes!"
+-Gamboge down PIDGY change to PIDGEY
+-Cascade studio "It" and "Once" shoudl not be capital with rocket boss
+	And rocket boss to ROCKET EXC
+-Tree in Junction Park can't be cut
+-Whirlpool in Kohto isn't programmed 
 
-Things I can't do:
--Fix the fly map
--Cannot fly to Figbranch Town (Azalea Town)
--Add wild water pokemon to Charcoal Town (Cerulean City)
--Add wild pokemon to Mt. Moon Square
--Add wild water pokemon to Victory Road
+Things to do:
+-Add tree wind, leaves

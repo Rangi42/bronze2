@@ -67,6 +67,7 @@ UnknownScript_0x9ba19:
 	writetext FakeBadgeDetectedText
 	clearflag ENGINE_FOGBADGE
 	clearevent EVENT_SWITCH_7
+	setevent EVENT_BOULDER_IN_BLACKTHORN_GYM_1
 	buttonsound
 	writetext CantGoThroughText
 	waitbutton

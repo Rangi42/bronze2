@@ -80,8 +80,7 @@ Route10South_MapEventHeader:
 	db 0, 0
 
 .Warps:
-	db 1
-	warp_def $1, $6, 2, ROCK_TUNNEL_1F
+	db 0
 
 .XYTriggers:
 	db 0
